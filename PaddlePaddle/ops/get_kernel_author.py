@@ -6,10 +6,10 @@ import subprocess
 import paddle
 # from IPython import get_ipython
 
-kernel_path = "/workspace/PaddleCustomDevice/backends/npu/kernels"
+kernel_path = "/home/wangruting/PaddleCustomDevice/backends/mlu/kernels"
 
 # get latest commit and date
-repo = git.Repo("/workspace/PaddleCustomDevice")
+repo = git.Repo("/home/wangruting/PaddleCustomDevice")
 commit = repo.head.commit
 commit_date = time.strftime("%Y%m%d", time.gmtime(commit.committed_date))
 # add date to output file name

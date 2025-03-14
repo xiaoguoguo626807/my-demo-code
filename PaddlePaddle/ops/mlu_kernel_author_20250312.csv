@@ -1,0 +1,257 @@
+abs,fwenguang,2022-09-13
+abs_grad,fwenguang,2022-09-13
+accuracy,fwenguang,2022-09-02
+adam,Chenxiao Niu,Niu
+adamw,Chenxiao Niu,Niu
+add,fwenguang,2022-09-07
+add_grad,fwenguang,2022-09-07
+add_n,Chenxiao Niu,Niu
+add_raw,fwenguang,2022-09-07
+all,Chenxiao Niu,Niu
+any,PeiyuLau,2023-06-16
+arange,Kai Song,Song
+arange_tensor,Chenxiao Niu,Niu
+argmax,fwenguang,2022-09-13
+argsort,fwenguang,2022-09-13
+argsort_grad,fwenguang,2022-09-13
+assign,fwenguang,2022-09-13
+assign_array,fwenguang,2022-09-13
+assign_raw,fwenguang,2022-09-13
+assign_value,fwenguang,2022-09-13
+atan,Yingli Liu,Liu
+atan_grad,Yingli Liu,Liu
+batch_norm,fwenguang,2022-09-13
+batch_norm_grad,fwenguang,2022-09-13
+batch_norm_infer,fwenguang,2022-09-13
+bce_loss,fwenguang,2022-09-13
+bce_loss_grad,fwenguang,2022-09-13
+bilinear_interp,fwenguang,2022-09-19
+bilinear_interp_grad,fwenguang,2022-09-19
+bitwise_and,Yingli Liu,Liu
+bitwise_not,Yingli Liu,Liu
+bitwise_or,Yingli Liu,Liu
+bitwise_xor,Yingli Liu,Liu
+bmm,Lux et Veritas,et
+bmm_grad,claire199705,2023-08-15
+cast,fwenguang,2022-09-13
+check_finite_and_unscale,cifar10,2022-09-26
+clip,fwenguang,2022-09-16
+clip_grad,fwenguang,2022-09-16
+coalesce_tensor,Lux et Veritas,et
+concat,fwenguang,2022-09-16
+concat_grad,fwenguang,2022-09-16
+contiguous,Tongkai,2024-03-15
+conv2d,fwenguang,2022-09-16
+conv2d_grad,fwenguang,2022-09-16
+conv2d_transpose,fwenguang,2022-09-16
+conv2d_transpose_grad,fwenguang,2022-09-16
+conv3d,fwenguang,2022-09-16
+conv3d_grad,fwenguang,2022-09-16
+cos,cifar10,2023-06-16
+cos_grad,cifar10,2023-06-16
+cross_entropy_with_softmax,Lux et Veritas,et
+cross_entropy_with_softmax_grad,Lux et Veritas,et
+cumsum,fwenguang,2022-09-16
+deformable_conv,fwenguang,2022-09-16
+deformable_conv_grad,fwenguang,2022-09-16
+depthwise_conv2d,fwenguang,2022-09-16
+depthwise_conv2d_grad,fwenguang,2022-09-16
+divide,fwenguang,2022-09-07
+divide_grad,fwenguang,2022-09-07
+divide_raw,fwenguang,2022-09-07
+dropout,fwenguang,2022-09-16
+dropout_grad,fwenguang,2022-09-16
+elementwise_pow,fwenguang,2022-09-07
+elementwise_pow_grad,fwenguang,2022-09-07
+elementwise_pow_raw,fwenguang,2022-09-07
+embedding,cifar10,2022-09-26
+embedding_grad,cifar10,2022-09-26
+exp,Chenxiao Niu,Niu
+exp_grad,fwenguang,2022-09-02
+expand,fwenguang,2022-09-19
+expand_as,fwenguang,2022-09-19
+expand_grad,fwenguang,2022-09-19
+fill,Tongkai,2024-03-15
+flash_attn,cifar10,2023-10-18
+flash_attn_grad,cifar10,2023-10-18
+flash_attn_unpadded,cifar10,2023-10-18
+flash_attn_unpadded_grad,cifar10,2023-10-18
+flip,Ivorfeng,2023-10-11
+floor,fwenguang,2022-09-02
+full,fwenguang,2022-09-19
+full_batch_size_like,fwenguang,2022-09-19
+full_like,fwenguang,2022-09-19
+gather,cifar10,2022-09-20
+gather_grad,cifar10,2022-09-20
+gather_nd,cifar10,2022-09-20
+gather_nd_grad,cifar10,2022-09-20
+gaussian,fwenguang,(fwenguang
+gelu,fwenguang,2022-09-02
+gelu_grad,Chenxiao Niu,Niu
+generate_proposals,fwenguang,(fwenguang
+grid_sample,fwenguang,2022-09-19
+grid_sample_grad,PeiyuLau,2024-09-05
+hardsigmoid,fwenguang,2022-09-02
+hardsigmoid_grad,fwenguang,2022-09-02
+hardswish,PeiyuLau,2023-06-16
+hardswish_grad,fwenguang,2022-09-02
+huber_loss,Chenxiao Niu,Niu
+huber_loss_grad,Chenxiao Niu,Niu
+index_sample,Ivorfeng,2023-08-24
+index_sample_grad,Ivorfeng,2023-08-24
+index_select,PeiyuLau,2024-02-02
+index_select_grad,PeiyuLau,2024-02-02
+kldiv_loss,Ivorfeng,2023-10-11
+kldiv_loss_grad,Ivorfeng,2023-10-11
+label_smooth,cifar10,2022-09-20
+layer_norm,fwenguang,2022-09-20
+layer_norm_grad,fwenguang,2022-09-20
+leaky_relu,fwenguang,2022-09-02
+leaky_relu_grad,fwenguang,2022-09-02
+log,cifar10,2023-06-16
+log10,fwenguang,2022-09-02
+log2,fwenguang,2022-09-02
+log_softmax,Lux et Veritas,et
+log_softmax_grad,Lux et Veritas,et
+logical_and,Chenxiao Niu,Niu
+logical_not,Chenxiao Niu,Niu
+logical_or,Chenxiao Niu,Niu
+logical_xor,Chenxiao Niu,Niu
+masked_select,Lux et Veritas,et
+masked_select_grad,Lux et Veritas,et
+matmul,Lux et Veritas,et
+matmul_grad,Chenxiao Niu,Niu
+matmul_with_flatten,Lux et Veritas,et
+matmul_with_flatten_grad,Chenxiao Niu,Niu
+max,fwenguang,2022-09-07
+max_grad,fwenguang,2022-09-07
+max_raw,fwenguang,2022-09-07
+maximum,fwenguang,2022-09-07
+maximum_grad,fwenguang,2022-09-07
+maximum_raw,fwenguang,2022-09-07
+mean,fwenguang,2022-09-02
+mean_all,fwenguang,2022-09-02
+mean_all_grad,fwenguang,2022-09-02
+mean_grad,fwenguang,2022-09-02
+mean_raw,fwenguang,2022-09-02
+memcpy,Chenxiao Niu,Niu
+memcpy_d2h,Chenxiao Niu,Niu
+memcpy_d2h_multi_io,Chenxiao Niu,Niu
+memcpy_h2d,Chenxiao Niu,Niu
+merged_adam,Chenxiao Niu,Niu
+merged_momentum,Chenxiao Niu,Niu
+meshgrid,Chenxiao Niu,Niu
+min,fwenguang,2022-09-07
+min_raw,fwenguang,2022-09-07
+minimum,fwenguang,2022-09-07
+minimum_grad,fwenguang,2022-09-07
+minimum_raw,fwenguang,2022-09-07
+momentum,Chenxiao Niu,Niu
+multinomial,Ivorfeng,2023-08-24
+multiply,fwenguang,2022-09-07
+multiply_grad,fwenguang,2022-09-07
+multiply_raw,fwenguang,2022-09-07
+name,YuhangLi,2023-04-25
+name##_raw,YuhangLi,2023-04-25
+nearest_interp,fwenguang,2022-09-19
+nearest_interp_grad,fwenguang,2022-09-19
+nonzero,cifar10,(cifar10
+numel,Lux et Veritas,(Lux
+one_hot,Chenxiao Niu,Niu
+one_hot_raw,Chenxiao Niu,Niu
+p_norm,Chenxiao Niu,Niu
+p_norm_grad,Chenxiao Niu,Niu
+pool2d,Chenxiao Niu,Niu
+pool2d_grad,Chenxiao Niu,Niu
+pow,Yingli Liu,Liu
+pow_grad,Yingli Liu,Liu
+print_kernel,Chenxiao Niu,Niu
+prior_box,cifar10,2022-09-30
+prod,fwenguang,(fwenguang
+prod_infer,fwenguang,(fwenguang
+randperm,Chenxiao Niu,Niu
+reciprocal,fwenguang,2022-09-02
+reciprocal_grad,fwenguang,2022-09-02
+relu,fwenguang,2022-09-02
+relu6,fwenguang,2022-09-02
+relu6_grad,fwenguang,2022-09-02
+relu_grad,fwenguang,2022-09-02
+rnn,Lux et Veritas,et
+rnn_grad,Chenxiao Niu,Niu
+roi_align,Lux et Veritas,et
+roi_align_grad,Lux et Veritas,et
+roll,PeiyuLau,2024-02-22
+roll_grad,PeiyuLau,2024-02-22
+round,Chenxiao Niu,Niu
+round_grad,Chenxiao Niu,Niu
+rsqrt,fwenguang,2022-09-02
+rsqrt_grad,cifar10,2023-06-16
+scale,Lux et Veritas,et
+scatter,Lux et Veritas,et
+scatter_nd_add,Yingli Liu,Liu
+set_value,Lux et Veritas,et
+set_value_with_tensor,cifar10,2023-04-06
+sgd,Chenxiao Niu,Niu
+sigmoid,Yingli Liu,Liu
+sigmoid_cross_entropy_with_logits,Lux et Veritas,et
+sigmoid_cross_entropy_with_logits_grad,Lux et Veritas,et
+sigmoid_grad,Yingli Liu,Liu
+silu,Yingli Liu,Liu
+silu_grad,Yingli Liu,Liu
+sin,fwenguang,2022-09-02
+sin_grad,PeiyuLau,2023-06-16
+slice,Lux et Veritas,et
+slice_grad,Lux et Veritas,et
+softmax,fwenguang,2022-08-31
+softmax_grad,fwenguang,2022-08-31
+split,Chenxiao Niu,Niu
+split_with_num,Chenxiao Niu,Niu
+sqrt,fwenguang,2022-09-02
+sqrt_grad,fwenguang,2022-09-02
+square,Chenxiao Niu,Niu
+square_grad,Chenxiao Niu,Niu
+squared_l2_norm,Lux et Veritas,et
+squared_l2_norm_grad,Lux et Veritas,et
+squeeze,Lux et Veritas,et
+squeeze_grad,Lux et Veritas,et
+squeeze_with_xshape,Lux et Veritas,et
+stack,Lux et Veritas,et
+strided_copy,Tongkai,2024-03-15
+strided_slice,Chenxiao Niu,Niu
+strided_slice_grad,Chenxiao Niu,Niu
+strided_slice_raw,Lux et Veritas,et
+strided_slice_raw_grad,Lux et Veritas,et
+subtract,fwenguang,2022-09-07
+subtract_grad,fwenguang,2022-09-07
+subtract_raw,fwenguang,2022-09-07
+sum,fwenguang,2022-09-07
+sum_grad,fwenguang,2022-09-07
+sum_raw,fwenguang,2022-09-07
+swish,PeiyuLau,2023-06-16
+swish_grad,PeiyuLau,2023-10-10
+sync_batch_norm,Chenxiao Niu,Niu
+sync_batch_norm_grad,Chenxiao Niu,Niu
+tanh,Chenxiao Niu,Niu
+tanh_grad,Chenxiao Niu,Niu
+tile,Lux et Veritas,et
+tile_grad,Chenxiao Niu,Niu
+topk,Lux et Veritas,et
+transpose,Chenxiao Niu,Niu
+transpose_grad,Chenxiao Niu,Niu
+tril,claire199705,2023-02-14
+tril_grad,claire199705,2023-02-14
+tril_triu,Chenxiao Niu,Niu
+tril_triu_grad,claire199705,2023-02-14
+triu,claire199705,2023-02-14
+triu_grad,claire199705,2023-02-14
+truncated_gaussian_random,Chenxiao Niu,Niu
+uniform,Chenxiao Niu,(Chenxiao
+uniform_raw,Chenxiao Niu,(Chenxiao
+unsqueeze,cifar10,2022-09-26
+unsqueeze_grad,cifar10,2022-09-26
+unsqueeze_with_xshape,cifar10,2022-09-26
+unstack,cifar10,2022-09-26
+unstack_grad,cifar10,2022-09-26
+where,claire199705,2023-07-11
+where_grad,Chenxiao Niu,Niu
+yolo_box,Lux et Veritas,et

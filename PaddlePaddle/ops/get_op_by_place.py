@@ -12,7 +12,7 @@ import paddle
 
 # get commit date by paddle.version.commit
 paddle_commit = paddle.version.commit
-repo = git.Repo("/workspace/Paddle")
+repo = git.Repo("/home/wangruting/Paddle")
 commit = list(repo.iter_commits(paddle_commit, max_count=1))[0]
 commit_date = time.strftime("%Y%m%d", time.gmtime(commit.committed_date))
 
@@ -32,7 +32,7 @@ print(f"---------- Target: {target_place}, Output: {output_file} ----------")
 
 # get op list by _get_all_register_op_kernels
 op_support_list = []
-kernel_dict = paddle.fluid.core._get_all_register_op_kernels()
+kernel_dict = paddle.base.core._get_all_register_op_kernels()
 for op_name in kernel_dict:
     kernel_list = kernel_dict[op_name]
     for item in kernel_list:

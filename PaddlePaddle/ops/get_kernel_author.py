@@ -8,11 +8,11 @@ import paddle
 import paddle_custom_device
 # from IPython import get_ipython
 
-kernel_path = "/home/wangruting/PaddleCustomDevice/backends/mlu/kernels"
-online_kernel_path = "https://github.com/PaddlePaddle/PaddleCustomDevice/tree/develop/backends/mlu/kernels/"
+kernel_path = "/home/wangruting/PaddleCustomDevice/backends/npu/kernels"
+online_kernel_path = "https://github.com/PaddlePaddle/PaddleCustomDevice/tree/develop/backends/npu/kernels/"
 # get latest commit and date
 repo = git.Repo("/home/wangruting/PaddleCustomDevice")
-paddle_commit = paddle_custom_device.mlu.version()
+paddle_commit = paddle_custom_device.npu.version()
 # 3.0-rc0
 commit_hash = "b84fac70d1b981285c8ed09a6dbf4c8a2d523233"
 # commit = repo.head.commit

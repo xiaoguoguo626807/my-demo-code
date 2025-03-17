@@ -1,0 +1,7 @@
+affine_grid_grad
+flatten_contiguous_range_grad
+put_along_axis
+put_along_axis_grad
+rank_loss
+rank_loss_grad
+transfer_dtype

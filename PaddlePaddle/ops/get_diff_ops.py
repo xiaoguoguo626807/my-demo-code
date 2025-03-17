@@ -5,11 +5,11 @@ import csv
 # 输入文件
 op_file_1 = sys.argv[1]
 op_file_2 = sys.argv[2]
-
+prefix =  sys.argv[3]
 # 输出文件
-ouptut_comm = "ouptut_comm.csv"
-output_diff1 = "output_diff1.csv"
-output_diff2 = "output_diff2.csv"
+ouptut_comm = prefix + "ouptut_comm.csv"
+output_diff1 = prefix + "output_diff1.csv"
+output_diff2 = prefix + "output_diff2.csv"
 
 # 获取模型算子列表
 op_list_1 = []

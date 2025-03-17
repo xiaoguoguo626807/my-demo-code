@@ -13,7 +13,6 @@ adamw
 addmm
 addmm_grad
 affine_grid
-affine_grid_grad
 all_gather
 allclose
 angle
@@ -186,7 +185,6 @@ flash_attn_grad
 flash_attn_unpadded
 flash_attn_unpadded_grad
 flatten_contiguous_range
-flatten_contiguous_range_grad
 flip
 floor
 floor_grad
@@ -370,14 +368,10 @@ prelu_grad
 prior_box
 psroi_pool
 psroi_pool_grad
-put_along_axis
-put_along_axis_grad
 qr_grad
 randint
 randperm
 range
-rank_loss
-rank_loss_grad
 real
 real_grad
 reciprocal
@@ -510,7 +504,6 @@ top_k_v2
 top_k_v2_grad
 trace
 trace_grad
-transfer_dtype
 transfer_layout
 transpose2
 transpose2_grad

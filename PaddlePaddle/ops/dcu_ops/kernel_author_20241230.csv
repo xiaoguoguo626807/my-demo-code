@@ -1,0 +1,692 @@
+abs,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/abs_kernel.cu,From00,2022-02-15
+abs_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/abs_grad_kernel.cu,zhangyikun02,2022-10-21
+abs_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/abs_grad_kernel.cu,From00,2022-02-15
+accuracy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/accuracy_kernel.cu,xiongkun,2022-03-08
+accuracy_check,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/accuracy_check_kernel.cu,chen2016013,2024-06-14
+adadelta,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/adadelta_kernel.cu,Aurelius84,2022-03-07
+adagrad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/adagrad_kernel.cu,hong,2022-03-28
+adagrad_dense_param_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/adagrad_kernel.cu,hong,2022-03-28
+adam,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/adam_kernel.cu,Aurelius84,2022-03-25
+adamax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/adamax_kernel.cu,niuliling123,2023-03-08
+adamw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/adamw_kernel.cu,Aurelius84,2022-03-25
+add_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+add_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+add_group_norm_silu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/group_norm_kernel.cu,bukejiyu,2024-06-04
+add_n,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/add_n_kernel.cu,Chen Weihang,2022-03-25
+add_n_array,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/add_n_kernel.cu,YuanRisheng,2022-09-19
+add_triple_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+addmm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/addmm_kernel.cu,littletomatodonkey,2020-04-10
+addmm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/addmm_grad_kernel.cu,littletomatodonkey,2020-04-10
+affine_channel,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/affine_channel_kernel.cu,co63oc,2024-06-20
+affine_channel_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/affine_channel_grad_kernel.cu,co63oc,2024-06-20
+affine_grid,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/affine_grid_kernel.cu,Thomas Young,2022-08-03
+affine_grid_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/affine_grid_grad_kernel.cu,Thomas Young,2022-08-03
+all_gather,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/all_gather_kernel.cu,yu wentao,2023-03-13
+all_reduce,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/all_reduce_kernel.cu,yu wentao,2023-03-24
+all_to_all,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/all_to_all_kernel.cu,wentao yu,2023-06-27
+allclose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/allclose_kernel.cu,Chen Weihang,2022-03-12
+amax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_kernel.cu,Galaxy1458,2023-09-15
+amin_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_kernel.cu,Galaxy1458,2023-09-15
+angle,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/angle_kernel.cu,WangZhen,2022-07-19
+angle_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/angle_grad_kernel.cu,WangZhen,2022-07-19
+apply_per_channel_scale,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/apply_per_channel_scale_kernel.cu,freeliuzc,2024-01-17
+arange,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/arange_kernel.cu,YuanRisheng,2023-10-31
+arange_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/arange_kernel.cu,csy0225,2022-03-31
+argmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/arg_min_max_kernel.cu,Zhong Hui,2022-03-10
+argmin,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/arg_min_max_kernel.cu,Zhong Hui,2022-03-10
+argsort,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/argsort_kernel.cu,Linjie Chen,2022-03-10
+argsort_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/argsort_grad_kernel.cu,Linjie Chen,2022-03-10
+as_complex,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/as_complex_kernel.cu,Feiyu Chan,2021-12-10
+as_real,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/as_real_kernel.cu,Weilong Wu,2022-07-20
+asgd,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/asgd_kernel.cu,Winters Montagne,2024-01-25
+assign_pos,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/assign_pos_kernel.cu,Sonder,2023-08-16
+atan2,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/atan2_kernel.cu,ronnywang,2022-02-23
+atan2_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/atan2_grad_kernel.cu,ronnywang,2022-02-23
+auc,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/auc_kernel.cu,Linjie Chen,2022-03-04
+average_accumulates,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/average_accumulates_kernel.cu,Wang Bojun,2022-07-27
+baddbmm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/baddbmm_kernel.cu,Qin-sx,2025-02-11
+baddbmm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/baddbmm_grad_kernel.cu,Qin-sx,2025-02-11
+barrier,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/barrier_kernel.cu,ZhenxingLi,2024-12-16
+batch_fc,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/batch_fc_kernel.cu,co63oc,2024-06-24
+batch_fc_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/batch_fc_grad_kernel.cu,co63oc,2024-06-24
+batch_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/batch_norm_kernel.cu,Guoxia Wang,2023-04-12
+batch_norm_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/batch_norm_grad_kernel.cu,hong,2022-03-03
+batch_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/batch_norm_grad_kernel.cu,zhangyuqin1998,2023-07-31
+bce_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bce_loss_kernel.cu,Linjie Chen,2022-02-24
+bce_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bce_loss_grad_kernel.cu,Linjie Chen,2022-02-24
+beam_search,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/beam_search_kernel.cu,co63oc,2024-06-20
+beam_search_decode,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/beam_search_decode_kernel.cu,co63oc,2024-07-02
+bernoulli,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bernoulli_kernel.cu,Leo Chen,2022-02-17
+bicubic_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_kernel.cu,zyfncg,2022-07-18
+bicubic_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_grad_kernel.cu,zyfncg,2022-07-18
+bilinear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bilinear_kernel.cu,From00,2022-02-26
+bilinear_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bilinear_grad_kernel.cu,From00,2022-02-26
+bilinear_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_kernel.cu,chentianyu03,2022-04-01
+bilinear_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_grad_kernel.cu,chentianyu03,2022-04-01
+bincount,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bincount_kernel.cu,0x45f,2022-03-07
+binomial,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/binomial_kernel.cu,AyaseNana,2023-12-13
+bmm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bmm_kernel.cu,BiynXu,2022-07-26
+bmm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/bmm_grad_kernel.cu,BiynXu,2022-07-26
+box_clip,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/box_clip_kernel.cu,co63oc,2024-05-16
+box_coder,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/box_coder_kernel.cu,lyq,2022-07-26
+broadcast,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/broadcast_kernel.cu,yu wentao,2023-03-09
+broadcast_tensors,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/broadcast_tensors_kernel.cu,From00,2022-03-02
+broadcast_tensors_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/broadcast_tensors_grad_kernel.cu,From00,2022-03-02
+c_concat,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_concat_kernel.cu,ZhenxingLi,2024-10-24
+c_embedding,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_embedding_kernel.cu,Ruibin Cheung,2023-08-16
+c_embedding_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_embedding_grad_kernel.cu,Ruibin Cheung,2023-08-16
+c_identity,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_identity_kernel.cu,Sonder,2023-08-29
+c_scatter,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_scatter_kernel.cu,co63oc,2024-08-06
+c_softmax_with_cross_entropy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_softmax_with_cross_entropy_kernel.cu,Function-Samuel,2024-12-13
+c_softmax_with_cross_entropy_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_softmax_with_cross_entropy_grad_kernel.cu,Function-Samuel,2024-12-13
+c_softmax_with_multi_label_cross_entropy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_softmax_with_multi_label_cross_entropy_kernel.cu,tianhaodongbd,2024-12-25
+c_softmax_with_multi_label_cross_entropy_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_softmax_with_multi_label_cross_entropy_grad_kernel.cu,tianhaodongbd,2024-12-25
+c_split,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/c_split_kernel.cu,Ruibin Cheung,2023-08-22
+calc_reduced_attn_scores,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/calc_reduced_attn_kernel.cu,umiswing,2024-07-11
+cast,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cast_kernel.cu,iLeGend,2023-03-13
+channel_shuffle,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/channel_shuffle_kernel.cu,BrilliantYuKaimin,2022-04-25
+channel_shuffle_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/channel_shuffle_grad_kernel.cu,BrilliantYuKaimin,2022-04-25
+check_finite_and_unscale,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/amp_kernel.cu,Chen Weihang,2022-08-16
+check_model_nan_inf,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/debug_tools_kernel.cu,niuliling123,2023-08-24
+check_numerics,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/check_numerics_kernel.cu,Yiqun Liu,2023-05-30
+cholesky,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cholesky_kernel.cu,Aganlengzi,2022-02-24
+cholesky_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cholesky_grad_kernel.cu,Aganlengzi,2022-02-24
+cholesky_solve,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cholesky_solve_kernel.cu,Zhou Wei,2022-03-11
+cholesky_solve_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cholesky_solve_grad_kernel.cu,Zhou Wei,2022-03-11
+class_center_sample,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/class_center_sample_kernel.cu,duanboqiang,2022-08-09
+clip,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/clip_kernel.cu,wuyefeilin,2022-04-02
+clip_by_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/clip_by_norm_kernel.cu,lyq,2022-07-20
+clip_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/clip_grad_kernel.cu,wuyefeilin,2022-04-02
+collect_fpn_proposals,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/collect_fpn_proposals_kernel.cu,co63oc,2024-07-23
+comm_init_all,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/comm_init_all_kernel.cu,co63oc,2024-08-21
+complex,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/complex_kernel.cu,zhangbo9674,2022-07-13
+complex_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/complex_grad_kernel.cu,zhangbo9674,2022-07-13
+concat,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/concat_kernel.cu,chentianyu03,2022-01-21
+concat_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/concat_grad_kernel.cu,chentianyu03,2022-04-03
+conj,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/complex_kernel.cu,chentianyu03,2021-12-20
+contiguous,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/contiguous_kernel.cu,wanghuancoder,2023-07-31
+conv2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_kernel.cu,hong,2022-03-04
+conv2d_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_grad_kernel.cu,Chen Weihang,2022-10-31
+conv2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_grad_kernel.cu,hong,2022-03-04
+conv2d_transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_transpose_kernel.cu,From00,2022-03-21
+conv2d_transpose_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_transpose_grad_kernel.cu,From00,2022-03-21
+conv2d_transpose_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_transpose_grad_kernel.cu,From00,2022-03-21
+conv3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_kernel.cu,hong,2022-03-04
+conv3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_grad_kernel.cu,hong,2022-03-04
+conv3d_transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_transpose_kernel.cu,From00,2022-03-21
+conv3d_transpose_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_transpose_grad_kernel.cu,From00,2022-03-21
+copysign_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,coco,2024-01-19
+correlation,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/correlation_kernel.cu,co63oc,2024-05-10
+correlation_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/correlation_grad_kernel.cu,co63oc,2024-05-10
+cos_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,cyber-pioneer,2022-11-04
+cos_triple_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,cyber-pioneer,2022-11-14
+crop,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/crop_kernel.cu,freeliuzc,2022-07-27
+crop_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/crop_grad_kernel.cu,freeliuzc,2022-07-27
+cross,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_kernel.cu,0x45f,2022-02-24
+cross_entropy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_entropy2_kernel.cu,co63oc,2024-05-28
+cross_entropy2,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_entropy2_kernel.cu,co63oc,2024-05-28
+cross_entropy_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_entropy2_grad_kernel.cu,co63oc,2024-05-28
+cross_entropy_grad2,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_entropy2_grad_kernel.cu,co63oc,2024-05-28
+cross_entropy_with_softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_entropy_kernel.cu,sneaxiy,2022-11-25
+cross_entropy_with_softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_entropy_grad_kernel.cu,sneaxiy,2022-11-25
+cross_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cross_grad_kernel.cu,0x45f,2022-02-24
+ctc_align,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/ctc_align_kernel.cu,co63oc,2024-05-13
+cuda_gemm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cuda_gemm_kernel.cu,zhink,2024-11-13
+cudnn_lstm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cudnn_lstm_kernel.cu,huangjiyi,2023-05-16
+cudnn_lstm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cudnn_lstm_grad_kernel.cu,huangjiyi,2023-05-16
+cummax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cum_maxmin_kernel.cu,NetPunk,2023-06-13
+cummax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cum_maxmin_grad_kernel.cu,NetPunk,2023-06-13
+cummin,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cum_maxmin_kernel.cu,NetPunk,2023-06-13
+cummin_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cum_maxmin_grad_kernel.cu,NetPunk,2023-06-13
+cumprod,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cumprod_kernel.cu,xiongkun,2022-03-15
+cumprod_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cumprod_grad_kernel.cu,xiongkun,2022-03-15
+cumsum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cum_kernel.cu,thunder95,2022-10-20
+cumsum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cum_grad_kernel.cu,wawltor,2023-01-18
+cvm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cvm_kernel.cu,co63oc,2024-06-20
+cvm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cvm_grad_kernel.cu,co63oc,2024-06-20
+decayed_adagrad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/decayed_adagrad_kernel.cu,Wang Xin,2023-08-08
+decode_jpeg,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/decode_jpeg_kernel.cu,wuyefeilin,2022-08-03
+deformable_conv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/deformable_conv_kernel.cu,zyfncg,2022-03-19
+deformable_conv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/deformable_conv_grad_kernel.cu,zyfncg,2022-03-23
+depend,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/depend_kernel.cu,co63oc,2024-05-16
+depthwise_conv2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/depthwise_conv_kernel.cu,hong,2022-03-04
+depthwise_conv2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/depthwise_conv_grad_kernel.cu,hong,2022-03-04
+depthwise_conv2d_transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_transpose_kernel.cu,From00,2022-03-21
+depthwise_conv2d_transpose_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/conv_transpose_grad_kernel.cu,From00,2022-03-21
+dequantize_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dequantize_abs_max_kernel.cu,cyberslack_lee,2024-04-30
+dequantize_linear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/quantize_linear_kernel.cu,Sonder,2023-10-09
+dequantize_linear_deprecated,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/quantize_linear_kernel.cu,cyberslack_lee,2024-05-21
+dequantize_log,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dequantize_log_kernel.cu,Zero Rains,2024-04-22
+determinant,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/determinant_kernel.cu,Chen Weihang,2022-03-15
+determinant_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/determinant_grad_kernel.cu,Chen Weihang,2022-03-15
+dgc,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dgc_kernel.cu,huangjiyi,2023-08-08
+dgc_clip_by_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dgc_clip_by_norm_kernel.cu,co63oc,2024-06-26
+dgc_momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dgc_momentum_kernel.cu,huangjiyi,2023-04-04
+diag,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/diag_kernel.cu,Linjie Chen,2022-02-25
+diag_embed,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/diag_embed_kernel.cu,Zhong Hui,2022-07-20
+diag_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/diag_grad_kernel.cu,Siming Dai,2022-03-14
+diagonal,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/diagonal_kernel.cu,xiongkun,2022-02-18
+diagonal_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/diagonal_grad_kernel.cu,Chen Weihang,2022-02-20
+digamma,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/digamma_kernel.cu,0x45f,2022-02-16
+digamma_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/digamma_grad_kernel.cu,0x45f,2022-02-16
+dirichlet,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dirichlet_kernel.cu,Xiaoxu Chen,2021-12-30
+dist,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dist_kernel.cu,thunder95,2022-09-02
+dist_concat,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dist_concat_kernel.cu,Xing-lil,2023-07-13
+distribute_fpn_proposals,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/distribute_fpn_proposals_kernel.cu,YuanRisheng,2022-08-23
+divide_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+divide_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+dot,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dot_kernel.cu,Chen Weihang,2021-12-22
+dot_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dot_grad_kernel.cu,zyfncg,2022-01-11
+dropout,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dropout_kernel.cu,hong,2022-03-10
+dropout_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dropout_grad_kernel.cu,hong,2022-03-10
+dropout_nd,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dropout_kernel.cu,crystal,2022-06-09
+dropout_nd_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/dropout_grad_kernel.cu,crystal,2022-06-09
+edit_distance,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/edit_distance_kernel.cu,zhiboniu,2022-08-03
+eigh,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/eigh_kernel.cu,lifulll,2025-01-10
+eigh_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/eigh_grad_kernel.cu,crystal,2022-03-09
+eigvalsh,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/eigvalsh_kernel.cu,wuyefeilin,2022-08-03
+eigvalsh_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/eigvalsh_grad_kernel.cu,wuyefeilin,2022-08-03
+einsum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/einsum_kernel.cu,xiongkun,2022-04-26
+einsum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/einsum_grad_kernel.cu,xiongkun,2022-04-26
+einsum_infer,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/einsum_kernel.cu,YuanRisheng,2022-07-20
+elementwise_pow_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,BrilliantYuKaimin,2022-05-10
+embedding,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/embedding_kernel.cu,hong,2022-03-22
+embedding_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/embedding_grad_kernel.cu,hong,2022-03-22
+embedding_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/embedding_grad_kernel.cu,hong,2022-03-22
+embedding_with_scaled_gradient_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/embedding_with_scaled_gradient_grad_kernel.cu,Nana,2024-12-16
+erf,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/erf_kernel.cu,wuyefeilin,2022-03-11
+erf_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/erf_grad_kernel.cu,wuyefeilin,2022-03-11
+erfinv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/erfinv_kernel.cu,0x45f,2022-02-25
+erfinv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/erfinv_grad_kernel.cu,0x45f,2022-02-25
+exp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,hong,2022-03-30
+exp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,hong,2022-03-30
+expand,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/expand_kernel.cu,Linjie Chen,2022-02-15
+expand_as,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/expand_as_kernel.cu,Zhang Zheng,2022-03-11
+expand_as_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/expand_as_grad_kernel.cu,Zhang Zheng,2022-03-11
+expand_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/expand_grad_kernel.cu,Linjie Chen,2022-02-15
+expm1,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,Longzhi Wang,2023-09-11
+expm1_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,hong,2022-03-30
+exponential,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/exponential_kernel.cu,Zhou Wei,2022-07-20
+eye,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/eye_kernel.cu,wuhuanzhou,2021-12-23
+fake_channel_wise_dequantize_max_abs,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_dequantize_kernel.cu,AyaseNana,2024-05-27
+fake_channel_wise_quantize_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_quantize_kernel.cu,AyaseNana,2024-05-16
+fake_channel_wise_quantize_dequantize_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_quantize_kernel.cu,AyaseNana,2024-05-16
+fake_dequantize_max_abs,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_dequantize_kernel.cu,AyaseNana,2024-05-23
+fake_quantize_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_quantize_kernel.cu,Zero Rains,2024-04-29
+fake_quantize_dequantize_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_quantize_kernel.cu,Zero Rains,2024-05-22
+fake_quantize_dequantize_moving_average_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_quantize_kernel.cu,Zero Rains,2024-05-22
+fake_quantize_moving_average_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_quantize_kernel.cu,Zero Rains,2024-04-26
+fake_quantize_range_abs_max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fake_quantize_kernel.cu,Zero Rains,2024-04-22
+fetch_barrier,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fetch_barrier_kernel.cu,co63oc,2024-06-24
+fft_c2c,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fft_kernel.cu,Feiyu Chan,2022-08-05
+fft_c2c_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fft_grad_kernel.cu,Feiyu Chan,2022-08-05
+fft_c2r,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fft_kernel.cu,Feiyu Chan,2022-08-05
+fft_c2r_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fft_grad_kernel.cu,Feiyu Chan,2022-08-05
+fft_r2c,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fft_kernel.cu,Difer,2023-03-19
+fft_r2c_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fft_grad_kernel.cu,Ruibiao Chen,2023-04-04
+fill,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fill_kernel.cu,HongyuJia,2022-08-08
+fill_diagonal,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fill_diagonal_kernel.cu,zhiboniu,2022-08-03
+fill_diagonal_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fill_diagonal_grad_kernel.cu,zhiboniu,2022-08-03
+fill_diagonal_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fill_diagonal_tensor_kernel.cu,zhiboniu,2022-08-04
+fill_diagonal_tensor_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fill_diagonal_tensor_grad_kernel.cu,zhiboniu,2022-08-04
+fill_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fill_grad_kernel.cu,HongyuJia,2022-08-08
+flash_attn,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_kernel.cu,Xiao Xiyuan,2024-05-07
+flash_attn_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_grad_kernel.cu,Xiao Xiyuan,2024-05-07
+flash_attn_qkvpacked,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_kernel.cu,Guoxia Wang,2024-03-28
+flash_attn_qkvpacked_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_grad_kernel.cu,Guoxia Wang,2024-03-28
+flash_attn_unpadded,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_kernel.cu,Chitsing KUI,2023-03-01
+flash_attn_unpadded_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_grad_kernel.cu,Chitsing KUI,2023-03-01
+flash_attn_varlen_qkvpacked,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_kernel.cu,Chitsing KUI,2023-03-10
+flash_attn_varlen_qkvpacked_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_grad_kernel.cu,Chitsing KUI,2023-03-10
+flashmask_attention,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_kernel.cu,Xiao Xiyuan,2024-05-07
+flashmask_attention_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flash_attn_grad_kernel.cu,Xiao Xiyuan,2024-05-07
+flatten2,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flatten2_kernel.cu,co63oc,2024-05-23
+flatten2_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flatten2_grad_kernel.cu,co63oc,2024-05-23
+flip,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/flip_kernel.cu,Yang,2022-02-23
+fmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,YuanRisheng,2022-01-24
+fmin_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Xiaoxu Chen,2022-03-14
+fold,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fold_kernel.cu,xiaoting,2022-08-04
+fold_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fold_grad_kernel.cu,xiaoting,2022-08-04
+fractional_max_pool2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_kernel.cu,megemini,2024-01-12
+fractional_max_pool2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,megemini,2024-01-12
+fractional_max_pool3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_kernel.cu,megemini,2024-01-12
+fractional_max_pool3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,megemini,2024-01-12
+frame,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/frame_kernel.cu,Charles-hit,2022-07-28
+frame_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/frame_grad_kernel.cu,Charles-hit,2022-07-28
+frobenius_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/frobenius_norm_kernel.cu,From00,2022-03-21
+frobenius_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/frobenius_norm_grad_kernel.cu,From00,2022-03-21
+ftrl,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/ftrl_kernel.cu,co63oc,2024-06-20
+full,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/full_kernel.cu,zyfncg,2021-12-20
+full_like,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/full_kernel.cu,zyfncg,2021-12-20
+full_with_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/full_kernel.cu,wanghuancoder,2023-08-23
+fused_adam,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fused_adam_kernel.cu,yuehuayingxueluo,2023-02-09
+fused_token_prune,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/fused_token_prune_kernel.cu,co63oc,2024-05-20
+gammaincc,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gammaincc_kernel.cu,Wang Xin,2024-01-24
+gammaincc_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gammaincc_grad_kernel.cu,Wang Xin,2024-01-24
+gammaln,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gammaln_kernel.cu,Wang Xin,2024-01-05
+gammaln_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gammaln_grad_kernel.cu,Wang Xin,2024-01-05
+gather,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gather_kernel.cu,Chen Weihang,2022-03-15
+gather_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gather_grad_kernel.cu,Chen Weihang,2022-03-15
+gather_nd,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gather_nd_kernel.cu,sneaxiy,2022-03-04
+gather_nd_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gather_nd_grad_kernel.cu,sneaxiy,2022-03-04
+gather_tree,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gather_tree_kernel.cu,crystal,2022-03-02
+gaussian,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gaussian_kernel.cu,furnace,2022-03-03
+gaussian_inplace,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gaussian_kernel.cu,GGBond8488,2023-09-22
+gaussian_inplace_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gaussian_inplace_grad_kernel.cu,GGBond8488,2023-09-22
+gelu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gelu_kernel.cu,shentanyue,2022-03-18
+gelu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gelu_grad_kernel.cu,shentanyue,2022-03-18
+generate_proposals,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/generate_proposals_kernel.cu,zhiboniu,2022-08-04
+global_gather,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/global_gather_kernel.cu,co63oc,2024-10-28
+global_scatter,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/global_scatter_kernel.cu,co63oc,2024-10-28
+graph_reindex,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/graph_reindex_kernel.cu,Siming Dai,2022-04-02
+graph_sample_neighbors,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/graph_sample_neighbors_kernel.cu,Siming Dai,2022-04-02
+grid_sample,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/grid_sample_kernel.cu,Chen Weihang,2022-03-16
+grid_sample_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/grid_sample_grad_kernel.cu,Chen Weihang,2022-03-16
+group_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/group_norm_kernel.cu,YuanRisheng,2022-06-08
+group_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/group_norm_grad_kernel.cu,YuanRisheng,2022-06-08
+gru,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gru_kernel.cu,co63oc,2024-05-29
+gru_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gru_grad_kernel.cu,co63oc,2024-05-29
+gru_unit,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gru_unit_kernel.cu,co63oc,2024-05-29
+gru_unit_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gru_unit_grad_kernel.cu,co63oc,2024-05-29
+gumbel_softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gumbel_softmax_kernel.cu,From00,2022-02-26
+gumbel_softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/gumbel_softmax_grad_kernel.cu,From00,2022-02-26
+heaviside_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,HydrogenSulfate,2024-10-29
+hinge_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/hinge_loss_kernel.cu,co63oc,2024-06-20
+hinge_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/hinge_loss_grad_kernel.cu,co63oc,2024-06-20
+histogram,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/histogram_kernel.cu,hong,2022-02-15
+huber_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/huber_loss_kernel.cu,Aurelius84,2022-02-21
+huber_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/huber_loss_grad_kernel.cu,Aurelius84,2022-02-21
+i0,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i0_kernel.cu,PommesPeter,2023-05-12
+i0_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i0_grad_kernel.cu,PommesPeter,2023-05-12
+i0e,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i0e_kernel.cu,PommesPeter,2023-05-12
+i0e_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i0e_grad_kernel.cu,PommesPeter,2023-05-12
+i1,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i1_kernel.cu,LyndonKong,2023-05-17
+i1_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i1_grad_kernel.cu,LyndonKong,2023-05-17
+i1e,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i1e_kernel.cu,LyndonKong,2023-05-17
+i1e_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/i1e_grad_kernel.cu,LyndonKong,2023-05-17
+im2sequence,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/im2sequence_kernel.cu,co63oc,2024-06-24
+im2sequence_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/im2sequence_grad_kernel.cu,co63oc,2024-06-24
+imag,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/complex_kernel.cu,From00,2022-02-22
+imag_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/complex_grad_kernel.cu,From00,2022-02-22
+increment,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/increment_kernel.cu,littletomatodonkey,2020-04-10
+index_add,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_add_kernel.cu,Li Min,2022-08-31
+index_add_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_add_grad_kernel.cu,Li Min,2022-08-31
+index_put,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_put_kernel.cu,傅剑寒,2023-05-10
+index_put_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_put_grad_kernel.cu,傅剑寒,2023-05-10
+index_sample,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_sample_kernel.cu,seemingwang,2022-02-28
+index_sample_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_sample_grad_kernel.cu,seemingwang,2022-02-28
+index_select,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_select_kernel.cu,chenenquan,2022-03-16
+index_select_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/index_select_grad_kernel.cu,chenenquan,2022-03-16
+instance_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/instance_norm_kernel.cu,YuanRisheng,2022-05-26
+instance_norm_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/instance_norm_grad_kernel.cu,qizhaoaoe,2023-04-10
+instance_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/instance_norm_grad_kernel.cu,YuanRisheng,2022-05-26
+inverse,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/inverse_kernel.cu,freeliuzc,2022-07-22
+inverse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/inverse_grad_kernel.cu,freeliuzc,2022-07-22
+isclose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/isclose_kernel.cu,xiongkun,2022-03-15
+isfinite,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/isfinite_kernel.cu,WJJ1995,2022-03-08
+isinf,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/isfinite_kernel.cu,WJJ1995,2022-03-08
+isnan,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/isfinite_kernel.cu,WJJ1995,2022-03-08
+kldiv_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/kldiv_loss_kernel.cu,xiongkun,2022-03-15
+kldiv_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/kldiv_loss_grad_kernel.cu,xiongkun,2022-03-15
+kron,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/kron_kernel.cu,Zhang Zheng,2022-03-15
+kron_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/kron_grad_kernel.cu,Zhang Zheng,2022-03-15
+kthvalue,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/kthvalue_kernel.cu,xiongkun,2022-03-18
+kthvalue_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/kthvalue_grad_kernel.cu,xiongkun,2022-03-18
+l1_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/l1_norm_kernel.cu,Galaxy1458,2024-04-25
+l1_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/l1_norm_grad_kernel.cu,Galaxy1458,2024-04-25
+label_smooth,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/label_smooth_kernel.cu,Aurelius84,2022-02-23
+label_smooth_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/label_smooth_grad_kernel.cu,Aurelius84,2022-02-23
+lamb,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lamb_kernel.cu,Thomas Young,2022-08-08
+lars_momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lars_momentum_kernel.cu,gouzil,2023-08-29
+layer_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/layer_norm_kernel.cu,hong,2022-03-17
+layer_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/layer_norm_grad_kernel.cu,hong,2022-03-17
+legacy_bilinear_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_kernel.cu,zyfncg,2022-07-18
+legacy_bilinear_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_grad_kernel.cu,zyfncg,2022-07-18
+legacy_matmul,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_kernel.cu,co63oc,2024-09-06
+legacy_matmul_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_grad_kernel.cu,co63oc,2024-09-06
+legacy_nearest_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_kernel.cu,zyfncg,2022-07-18
+legacy_nearest_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_grad_kernel.cu,zyfncg,2022-07-18
+lerp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lerp_kernel.cu,wuhuanzhou,2021-12-08
+lerp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lerp_grad_kernel.cu,wuhuanzhou,2021-12-08
+lgamma,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lgamma_kernel.cu,xiongkun,2022-03-15
+lgamma_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lgamma_grad_kernel.cu,xiongkun,2022-03-15
+limit_by_capacity,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/limit_by_capacity_kernel.cu,yangguohao,2023-08-03
+linear_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_kernel.cu,zyfncg,2022-07-18
+linear_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_grad_kernel.cu,zyfncg,2022-07-18
+linspace,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/linspace_kernel.cu,chenenquan,2022-03-09
+llm_int8_linear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/llm_int8_linear_kernel.cu,zhenyun,2023-07-03
+load,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/load_kernel.cu,co63oc,2024-10-15
+load_combine,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/load_combine_kernel.cu,co63oc,2024-10-23
+load_combine_extended,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/load_combine_kernel.cu,co63oc,2024-10-23
+load_combine_vocab,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/load_combine_kernel.cu,co63oc,2024-10-23
+lod_reset,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lod_reset_kernel.cu,co63oc,2024-09-23
+lod_reset_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lod_reset_grad_kernel.cu,co63oc,2024-09-23
+log,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,Bo Zhang,2023-03-22
+log10,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,Botao Zhou,2024-03-29
+log1p,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,Botao Zhou,2024-03-29
+log2,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,Botao Zhou,2024-03-29
+log_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,Botao Zhou,2024-03-29
+log_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/log_loss_kernel.cu,Linjie Chen,2022-03-04
+log_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/log_loss_grad_kernel.cu,Linjie Chen,2022-03-04
+log_softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/log_softmax_kernel.cu,shentanyue,2022-03-18
+log_softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/log_softmax_grad_kernel.cu,shentanyue,2022-03-18
+logcumsumexp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/cum_kernel.cu,thunder95,2022-10-20
+logcumsumexp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/logcumsumexp_grad_kernel.cu,thunder95,2022-10-20
+logspace,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/logspace_kernel.cu,BrilliantYuKaimin,2022-04-20
+logsumexp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/logsumexp_kernel.cu,Asthestarsfalll,2023-04-10
+logsumexp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/logsumexp_grad_kernel.cu,zhupengyang,2020-09-10
+lookup_table,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lookup_table_kernel.cu,co63oc,2024-09-20
+lookup_table_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lookup_table_grad_kernel.cu,co63oc,2024-09-20
+lookup_table_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lookup_table_grad_kernel.cu,co63oc,2024-09-20
+lp_pool2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_kernel.cu,Wei Shengyu,2023-04-12
+lp_pool2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,Asthestarsfalll,2024-06-07
+lrn,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lrn_kernel.cu,co63oc,2024-06-26
+lrn_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lrn_grad_kernel.cu,co63oc,2024-06-26
+lstm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lstm_kernel.cu,co63oc,2024-06-04
+lstm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lstm_grad_kernel.cu,co63oc,2024-06-04
+lstsq,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lstsq_kernel.cu,Haohongxiang,2022-07-29
+lu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lu_kernel.cu,Lin Manhui,2022-07-29
+lu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lu_grad_kernel.cu,Lin Manhui,2022-07-29
+lu_solve,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lu_solve_kernle.cu,decade-afk,2025-03-10
+lu_solve_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lu_solve_grad_kernel.cu,decade-afk,2025-03-10
+lu_unpack,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lu_unpack_kernel.cu,Lin Manhui,2022-08-01
+lu_unpack_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/lu_unpack_grad_kernel.cu,Lin Manhui,2022-08-01
+margin_cross_entropy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/margin_cross_entropy_kernel.cu,co63oc,2024-08-05
+margin_cross_entropy_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/margin_cross_entropy_grad_kernel.cu,co63oc,2024-08-05
+masked_select,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/masked_select_kernel.cu,hong,2022-02-10
+masked_select_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/masked_select_grad_kernel.cu,hong,2022-02-10
+matmul,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_kernel.cu,YSF,2023-09-14
+matmul_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_grad_kernel.cu,Chen Weihang,2022-01-13
+matmul_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_grad_kernel.cu,zyfncg,2022-01-11
+matmul_triple_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_grad_kernel.cu,Chen Weihang,2022-01-13
+matmul_with_flatten,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_kernel.cu,YSF,2023-09-14
+matmul_with_flatten_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_grad_kernel.cu,Chen Weihang,2022-03-24
+matmul_with_flatten_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matmul_grad_kernel.cu,Chen Weihang,2022-03-24
+matrix_power,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matrix_power_kernel.cu,Liu-xiandong,2022-03-10
+matrix_power_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matrix_power_grad_kernel.cu,Liu-xiandong,2022-03-10
+matrix_rank,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matrix_rank_kernel.cu,crystal,2022-03-14
+matrix_rank_atol_rtol,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matrix_rank_tol_kernel.cu,crystal,2022-03-14
+matrix_rank_tol,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/matrix_rank_tol_kernel.cu,crystal,2022-03-14
+max_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_kernel.cu,Galaxy1458,2023-09-15
+max_pool2d_with_index,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_kernel.cu,Asthestarsfalll,2024-06-07
+max_pool2d_with_index_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,From00,2022-03-14
+max_pool3d_with_index,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_kernel.cu,chenxujun,2023-04-04
+max_pool3d_with_index_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,chenxujun,2023-04-04
+maximum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,FlyingQianMM,2022-03-25
+maxout,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/maxout_kernel.cu,Yang,2022-03-08
+maxout_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/maxout_grad_kernel.cu,Yang,2022-03-08
+mean_all,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/mean_all_kernel.cu,Chen Weihang,2022-03-24
+mean_all_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/mean_all_grad_kernel.cu,Chen Weihang,2022-03-24
+mean_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_kernel.cu,Galaxy1458,2023-09-15
+merged_adam,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/adam_kernel.cu,zhangbo9674,2022-07-12
+merged_momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/merged_momentum_kernel.cu,Zeng Jinle,2021-10-14
+min_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_kernel.cu,Galaxy1458,2023-09-15
+minimum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,FlyingQianMM,2022-03-25
+mode,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/mode_kernel.cu,Aurelius84,2022-03-16
+mode_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/mode_grad_kernel.cu,Aurelius84,2022-03-16
+momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/momentum_kernel.cu,hong,2022-03-28
+momentum_dense_param_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/momentum_kernel.cu,hong,2022-03-28
+moving_average_abs_max_scale,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/moving_average_abs_max_scale_kernel.cu,co63oc,2024-08-12
+mp_allreduce_sum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/mp_allreduce_sum_kernel.cu,co63oc,2024-10-30
+multi_dot,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/multi_dot_kernel.cu,Liu-xiandong,2022-03-07
+multi_dot_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/multi_dot_grad_kernel.cu,Liu-xiandong,2022-03-07
+multiclass_nms3,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/multiclass_nms3_kernel.cu,Tian Zheng,2023-05-22
+multinomial,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/multinomial_kernel.cu,Aganlengzi,2022-02-24
+multiplex,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/multiplex_kernel.cu,caozhou,2022-03-16
+multiplex_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/multiplex_grad_kernel.cu,caozhou,2022-03-16
+multiply_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+multiply_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+multiply_triple_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+mv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/mv_kernel.cu,furnace,2022-02-25
+mv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/mv_grad_kernel.cu,furnace,2022-02-25
+nadam,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nadam_kernel.cu,megemini,2024-05-16
+name,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,Scotty,2023-07-28
+nanmedian,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nanmedian_kernel.cu,thunder95,2022-05-30
+nanmedian_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nanmedian_grad_kernel.cu,thunder95,2022-05-30
+nearest_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_kernel.cu,co63oc,2024-07-09
+nearest_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_grad_kernel.cu,co63oc,2024-07-09
+nextafter,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nextafter_kernel.cu,cyberslack_lee,2023-04-27
+nll_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nll_loss_kernel.cu,xiongkun,2022-03-09
+nll_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nll_loss_grad_kernel.cu,xiongkun,2022-03-09
+nms,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nms_kernel.cu,Thomas Young,2022-08-01
+nonzero,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nonzero_kernel.cu,chenenquan,2022-03-10
+nop,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/nop_kernel.cu,gouzil,2023-08-01
+norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/norm_kernel.cu,hong,2022-02-09
+norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/norm_grad_kernel.cu,hong,2022-02-09
+number_count,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/number_count_kernel.cu,Roc,2022-03-15
+numel,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/numel_kernel.cu,Chen Weihang,2022-09-19
+one_hot,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/one_hot_kernel.cu,hong,2022-03-15
+overlap_add,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/overlap_add_kernel.cu,levi131,2022-08-01
+overlap_add_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/overlap_add_grad_kernel.cu,levi131,2022-08-01
+p_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/p_norm_kernel.cu,zhiboniu,2022-03-24
+p_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/p_norm_grad_kernel.cu,zhiboniu,2022-03-24
+p_recv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/p_recv_kernel.cu,yu wentao,2023-04-07
+p_recv_array,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/p_recv_kernel.cu,yu wentao,2023-04-07
+p_send,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/p_send_kernel.cu,yu wentao,2023-04-07
+p_send_array,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/p_send_kernel.cu,yu wentao,2023-04-07
+pad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pad_kernel.cu,xiongkun,2022-03-03
+pad3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pad3d_kernel.cu,chentianyu03,2022-03-21
+pad3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pad3d_grad_kernel.cu,chentianyu03,2022-03-21
+pad_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pad_grad_kernel.cu,xiongkun,2022-03-03
+partial_allgather,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/partial_allgather_kernel.cu,co63oc,2024-08-08
+partial_concat,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/partial_concat_kernel.cu,co63oc,2024-05-10
+partial_concat_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/partial_concat_grad_kernel.cu,co63oc,2024-05-10
+partial_recv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/partial_recv_kernel.cu,co63oc,2024-08-14
+partial_send,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/partial_send_kernel.cu,co63oc,2024-08-08
+pixel_shuffle,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pixel_shuffle_kernel.cu,0x45f,2022-02-25
+pixel_shuffle_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pixel_shuffle_grad_kernel.cu,0x45f,2022-02-25
+pixel_unshuffle,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pixel_unshuffle_kernel.cu,BrilliantYuKaimin,2022-04-26
+pixel_unshuffle_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pixel_unshuffle_grad_kernel.cu,BrilliantYuKaimin,2022-04-26
+poisson,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/poisson_kernel.cu,Zhou Wei,2022-02-24
+poisson_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/poisson_grad_kernel.cu,Zhou Wei,2022-02-24
+polygamma,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/polygamma_kernel.cu,PommesPeter,2023-06-05
+polygamma_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/polygamma_grad_kernel.cu,PommesPeter,2023-06-05
+pool2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_kernel.cu,From00,2022-03-14
+pool2d_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,Wei Shengyu,2023-04-12
+pool2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,From00,2022-03-14
+pool3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_kernel.cu,From00,2022-03-14
+pool3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pool_grad_kernel.cu,From00,2022-03-14
+pow,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,Botao Zhou,2024-03-29
+pow2_decay_with_linear_warmup,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/pow2_decay_with_linear_warmup_kernel.cu,Zeng Jinle,2021-10-19
+pow_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,fangfangssj,2025-03-04
+pow_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,YuanRisheng,2022-03-25
+pow_triple_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,fangfangssj,2025-03-04
+prelu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/prelu_kernel.cu,shentanyue,2022-03-18
+prelu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/prelu_grad_kernel.cu,shentanyue,2022-03-18
+prior_box,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/prior_box_kernel.cu,zhiboniu,2022-07-30
+prod_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/prod_grad_kernel.cu,chentianyu03,2022-04-15
+prune_gate_by_capacity,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/prune_gate_by_capacity_kernel.cu,Roc,2022-03-29
+psroi_pool,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/psroi_pool_kernel.cu,From00,2022-03-11
+psroi_pool_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/psroi_pool_grad_kernel.cu,From00,2022-03-11
+put_along_axis,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/put_along_axis_kernel.cu,Yang,2022-03-08
+put_along_axis_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/put_along_axis_grad_kernel.cu,Yang,2022-03-08
+qr,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/qr_kernel.cu,fangfangssj,2025-01-21
+qr_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/qr_grad_kernel.cu,fangfangssj,2025-01-21
+quant_linear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/quant_linear_kernel.cu,YSF,2023-10-31
+quantize_linear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/quantize_linear_kernel.cu,cyberslack_lee,2024-05-21
+quantize_linear_deprecated_infer,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/quantize_linear_kernel.cu,YuanRisheng,2024-05-27
+quantize_linear_deprecated_train,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/quantize_linear_kernel.cu,cyberslack_lee,2024-05-21
+radam,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/radam_kernel.cu,megemini,2024-05-16
+randint,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/randint_kernel.cu,Leo Chen,2022-02-24
+random_routing,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/random_routing_kernel.cu,Sonder,2023-07-31
+randperm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/randperm_kernel.cu,Leo Chen,2022-02-23
+rank_attention,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rank_attention_kernel.cu,co63oc,2024-05-24
+rank_attention_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rank_attention_grad_kernel.cu,co63oc,2024-05-24
+real,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/complex_kernel.cu,From00,2022-02-22
+real_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/complex_grad_kernel.cu,From00,2022-02-22
+reduce,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_kernel.cu,yu wentao,2023-03-24
+reduce_as,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_as_kernel.cu,Zero Rains,2024-04-19
+reduce_as_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_as_grad_kernel.cu,Zero Rains,2024-04-19
+reduce_scatter,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_scatter_kernel.cu,yu wentao,2023-04-07
+relu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,YuanRisheng,2022-03-08
+relu_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,YuanRisheng,2022-03-08
+relu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,YuanRisheng,2022-03-08
+remainder_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,BrilliantYuKaimin,2022-05-10
+renorm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/renorm_kernel.cu,seemingwang,2022-08-02
+renorm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/renorm_grad_kernel.cu,seemingwang,2022-08-02
+repeat_interleave,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/repeat_interleave_kernel.cu,seemingwang,2022-08-03
+repeat_interleave_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/repeat_interleave_grad_kernel.cu,tianhaodongbd,2024-02-21
+repeat_interleave_with_tensor_index,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/repeat_interleave_kernel.cu,seemingwang,2022-08-03
+repeat_interleave_with_tensor_index_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/repeat_interleave_grad_kernel.cu,seemingwang,2022-08-03
+rms_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rms_norm_kernel.cu,ZZK,2023-07-11
+rms_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rms_norm_grad_kernel.cu,liuzhenhai93,2024-02-27
+rmsprop,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rmsprop_kernel.cu,niuliling123,2023-03-01
+rmsprop_dense_param_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rmsprop_kernel.cu,hong,2022-03-28
+roi_align,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/roi_align_kernel.cu,zyfncg,2022-03-12
+roi_align_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/roi_align_grad_kernel.cu,zyfncg,2022-03-16
+roi_pool,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/roi_pool_kernel.cu,zyfncg,2022-03-17
+roi_pool_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/roi_pool_grad_kernel.cu,zyfncg,2022-03-17
+roll,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/roll_kernel.cu,chenenquan,2022-03-16
+roll_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/roll_grad_kernel.cu,chenenquan,2022-03-16
+row_conv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/row_conv_kernel.cu,co63oc,2024-07-17
+row_conv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/row_conv_grad_kernel.cu,co63oc,2024-07-17
+rprop,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rprop_kernel.cu,Winters Montagne,2023-12-20
+rrelu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rrelu_kernel.cu,thunder95,2022-05-31
+rrelu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/rrelu_grad_kernel.cu,thunder95,2022-05-31
+save,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/save_kernel.cu,lujun,2019-03-20
+save_combine_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/save_combine_kernel.cu,lujun,2019-03-20
+save_combine_vocab,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/save_combine_kernel.cu,lujun,2019-03-20
+scale,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/scale_kernel.cu,niuliling123,2022-01-04
+scatter,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/scatter_kernel.cu,sneaxiy,2022-03-04
+scatter_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/scatter_grad_kernel.cu,sneaxiy,2022-03-04
+scatter_nd_add,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/scatter_nd_add_kernel.cu,sneaxiy,2022-03-04
+scatter_nd_add_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/scatter_nd_add_grad_kernel.cu,sneaxiy,2022-03-04
+searchsorted,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/searchsorted_kernel.cu,Zhang Zheng,2022-03-15
+seed,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/seed_kernel.cu,co63oc,2024-07-17
+segment_pool,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/segment_pool_kernel.cu,Zhong Hui,2022-03-10
+segment_pool_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/segment_pool_grad_kernel.cu,Zhong Hui,2022-03-10
+selu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/selu_grad_kernel.cu,xiongkun,2022-03-01
+send_u_recv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/send_u_recv_kernel.cu,wawltor,2022-03-08
+send_u_recv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/send_u_recv_grad_kernel.cu,wawltor,2022-03-08
+send_ue_recv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/send_ue_recv_kernel.cu,Siming Dai,2022-08-12
+send_ue_recv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/send_ue_recv_grad_kernel.cu,Siming Dai,2022-08-12
+send_uv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/send_uv_kernel.cu,Siming Dai,2022-08-16
+send_uv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/send_uv_grad_kernel.cu,Siming Dai,2022-08-16
+sequence_expand,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_expand_kernel.cu,co63oc,2024-07-03
+sequence_expand_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_expand_grad_kernel.cu,co63oc,2024-07-03
+sequence_mask,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_mask_kernel.cu,Wang Xin,2023-05-12
+sequence_mask_scalar,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_mask_kernel.cu,Sonder,2023-06-26
+sequence_pool,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_pool_kernel.cu,gouzil,2023-04-14
+sequence_pool_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_pool_grad_kernel.cu,gouzil,2023-04-27
+sequence_softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_softmax_kernel.cu,co63oc,2024-07-03
+sequence_softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sequence_softmax_grad_kernel.cu,co63oc,2024-07-03
+set_value,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/set_value_kernel.cu,zyfncg,2022-03-09
+set_value_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/set_value_grad_kernel.cu,zyfncg,2022-03-14
+set_value_with_scalar_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/set_value_grad_kernel.cu,JYChen,2023-12-25
+set_value_with_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/set_value_kernel.cu,Feiyu Chan,2022-10-11
+sgd,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sgd_kernel.cu,sneaxiy,2023-06-14
+sgd_dense_param_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sgd_kernel.cu,hong,2022-03-02
+sgd_sparse_param_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sgd_kernel.cu,hong,2022-03-02
+shard_index,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/shard_index_kernel.cu,chenenquan,2022-03-11
+share_data,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/share_data_kernel.cu,co63oc,2024-07-02
+shuffle_batch,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/shuffle_batch_kernel.cu,Sonder,2023-08-28
+shuffle_batch_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/shuffle_batch_grad_kernel.cu,Sonder,2023-08-28
+shuffle_channel,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/shuffle_channel_kernel.cu,co63oc,2024-04-25
+shuffle_channel_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/shuffle_channel_grad_kernel.cu,co63oc,2024-04-25
+sigmoid_cross_entropy_with_logits,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sigmoid_cross_entropy_with_logits_kernel.cu,Linjie Chen,2022-03-04
+sigmoid_cross_entropy_with_logits_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sigmoid_cross_entropy_with_logits_grad_kernel.cu,Linjie Chen,2022-03-04
+sin_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,hong,2022-03-30
+sin_triple_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,cyber-pioneer,2022-11-09
+slogdet,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/slogdeterminant_kernel.cu,BiynXu,2022-07-26
+slogdet_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/slogdeterminant_grad_kernel.cu,BiynXu,2022-07-26
+soft_relu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/soft_relu_kernel.cu,co63oc,2024-09-03
+soft_relu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/soft_relu_grad_kernel.cu,co63oc,2024-09-03
+softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/softmax_kernel.cu,Chen Weihang,2022-02-25
+softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/softmax_grad_kernel.cu,Chen Weihang,2022-02-25
+solve,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/solve_kernel.cu,Weilong Wu,2022-07-16
+solve_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/solve_grad_kernel.cu,Weilong Wu,2022-07-16
+sparse_momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sparse_momentum_kernel.cu,Guoxia Wang,2021-08-27
+spectral_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/spectral_norm_kernel.cu,Lin Manhui,2022-07-28
+spectral_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/spectral_norm_grad_kernel.cu,Lin Manhui,2022-07-28
+split,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/split_kernel.cu,chentianyu03,2022-02-14
+split_with_num,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/split_kernel.cu,Charles-hit,2022-08-31
+square,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_kernel.cu,Longzhi Wang,2023-09-11
+square_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,周波涛,2024-01-17
+square_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/activation_grad_kernel.cu,hong,2022-03-30
+squared_l2_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/squared_l2_norm_kernel.cu,201716010711,2023-01-30
+squared_l2_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/squared_l2_norm_grad_kernel.cu,lyq,2022-07-25
+stack,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/stack_kernel.cu,csy0225,2022-03-31
+stack_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/stack_grad_kernel.cu,csy0225,2022-03-31
+standard_gamma,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/standard_gamma_kernel.cu,MayYouBeProsperous,2024-01-04
+stft,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/stft_kernel.cu,gouzil,2023-05-16
+stft_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/stft_grad_kernel.cu,KP,2022-03-23
+straight_through_estimator_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/straight_through_estimator_grad_kernel.cu,co63oc,2024-08-12
+strided_copy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/strided_copy_kernel.cu,wanghuancoder,2023-07-31
+strided_slice_array,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/strided_slice_kernel.cu,Aurelius84,2022-03-25
+strided_slice_array_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/strided_slice_grad_kernel.cu,Aurelius84,2022-03-25
+strided_slice_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/strided_slice_kernel.cu,Aurelius84,2022-03-25
+strided_slice_raw_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/strided_slice_grad_kernel.cu,Aurelius84,2022-03-25
+subtract_double_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+subtract_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/elementwise_grad_kernel.cu,Galaxy1458,2023-09-15
+sum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/reduce_kernel.cu,Galaxy1458,2023-09-15
+svd,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/svd_kernel.cu,xiongkun,2022-07-21
+svd_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/svd_grad_kernel.cu,xiongkun,2022-07-21
+swiglu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/swiglu_kernel.cu,sneaxiy,2024-02-05
+swiglu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/swiglu_grad_kernel.cu,sneaxiy,2024-02-05
+sync_batch_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sync_batch_norm_kernel.cu,Zhang Zheng,2023-04-17
+sync_batch_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sync_batch_norm_grad_kernel.cu,co63oc,2024-08-13
+sync_calc_stream,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sync_calc_stream_kernel.cu,co63oc,2024-08-07
+sync_comm_stream,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/sync_comm_stream_kernel.cu,co63oc,2024-09-27
+take_along_axis,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/take_along_axis_kernel.cu,Yang,2022-03-08
+take_along_axis_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/take_along_axis_grad_kernel.cu,Yang,2022-03-08
+temporal_shift,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/temporal_shift_kernel.cu,hong,2022-03-30
+temporal_shift_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/temporal_shift_grad_kernel.cu,hong,2022-03-30
+tile,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tile_kernel.cu,Aurelius84,2022-03-11
+tile_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tile_grad_kernel.cu,Aurelius84,2022-03-11
+top_p_sampling,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/top_p_sampling_kernel.cu,Yuanle Liu,2024-08-28
+topk,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/top_k_kernel.cu,Zhang Zheng,2022-03-10
+topk_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/top_k_grad_kernel.cu,Zhang Zheng,2022-03-10
+topk_v1,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/top_k_kernel.cu,co63oc,2024-06-11
+topk_v1_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/top_k_grad_kernel.cu,co63oc,2024-06-11
+trace,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/trace_kernel.cu,hong,2022-02-09
+trace_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/trace_grad_kernel.cu,hong,2022-02-09
+trans_layout_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/transpose_grad_kernel.cu,niuliling123,2023-05-15
+transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/transpose_kernel.cu,hong,2022-03-02
+transpose_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/transpose_grad_kernel.cu,hong,2022-03-02
+triangular_solve,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/triangular_solve_kernel.cu,Qi Li,2024-02-21
+triangular_solve_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/triangular_solve_grad_kernel.cu,Qi Li,2024-02-21
+tril,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tril_triu_kernel.cu,caozhou,2022-03-16
+tril_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tril_triu_grad_kernel.cu,caozhou,2022-03-16
+tril_indices,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tril_indices_kernel.cu,xiaoguoguo626807,2022-05-20
+tril_triu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tril_triu_kernel.cu,YuanRisheng,2022-11-17
+tril_triu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tril_triu_grad_kernel.cu,YuanRisheng,2022-11-17
+trilinear_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_kernel.cu,co63oc,2024-07-09
+trilinear_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/interpolate_grad_kernel.cu,co63oc,2024-07-09
+triu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tril_triu_kernel.cu,YuanRisheng,2022-11-17
+triu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/tril_triu_grad_kernel.cu,YuanRisheng,2022-11-17
+triu_indices,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/triu_indices_kernel.cu,Rayman,2022-08-25
+trunc,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/trunc_kernel.cu,Sing_chan,2022-02-17
+trunc_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/trunc_grad_kernel.cu,Sing_chan,2022-02-17
+truncated_gaussian_random,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/truncated_gaussian_random_kernel.cu,furnace,2022-02-28
+unbind,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unbind_kernel.cu,Leo Chen,2022-02-23
+unfold,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unfold_kernel.cu,Aurelius84,2022-02-22
+unfold_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unfold_grad_kernel.cu,Aurelius84,2022-02-22
+uniform,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/uniform_kernel.cu,Leo Chen,2022-03-01
+uniform_inplace,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/uniform_inplace_kernel.cu,wuyefeilin,2022-08-03
+uniform_inplace_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/uniform_inplace_grad_kernel.cu,wuyefeilin,2022-08-03
+uniform_random_batch_size_like,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/uniform_random_batch_size_like_kernel.cu,co63oc,2024-05-24
+unique,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unique_kernel.cu,csy0225,2022-03-31
+unique_consecutive,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unique_consecutive_kernel.cu,Yuang Liu,2022-07-12
+unique_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unique_kernel.cu,csy0225,2022-03-31
+unpool,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unpool_kernel.cu,xiaoting,2022-08-04
+unpool3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unpool_kernel.cu,xiaoting,2022-08-04
+unpool3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unpool_grad_kernel.cu,xiaoting,2022-08-04
+unpool_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unpool_grad_kernel.cu,xiaoting,2022-08-04
+unstack,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unstack_kernel.cu,csy0225,2022-03-31
+unstack_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/unstack_grad_kernel.cu,csy0225,2022-03-31
+update_loss_scaling,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/amp_kernel.cu,Chen Weihang,2022-08-16
+viterbi_decode,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/viterbi_decode_kernel.cu,Linjie Chen,2022-03-09
+warpctc,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/warpctc_kernel.cu,0x45f,2022-03-28
+warpctc_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/warpctc_grad_kernel.cu,0x45f,2022-03-28
+warprnnt,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/warprnnt_kernel.cu,Hui Zhang,2022-12-23
+warprnnt_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/warprnnt_grad_kernel.cu,Hui Zhang,2022-12-23
+weight_dequantize,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/weight_dequantize_kernel.cu,Yuanle Liu,2023-10-10
+weight_only_linear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/weight_only_linear_kernel.cu,zhenyun,2023-08-22
+weight_only_linear_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/weight_only_linear_grad_kernel.cu,Yuanle Liu,2023-09-27
+weight_quantize,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/weight_quantize_kernel.cu,Wang Bojun,2023-11-24
+weighted_sample_neighbors,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/weighted_sample_neighbors_kernel.cu,Siming Dai,2023-04-24
+where,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/where_kernel.cu,ronnywang,2022-03-01
+where_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/where_grad_kernel.cu,ronnywang,2022-03-01
+yolo_box,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/yolo_box_kernel.cu,hong,2022-03-04
+yolo_box_head,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/yolo_box_head_kernel.cu,zhupengyang,2022-05-17
+yolo_box_post,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/gpu/yolo_box_post_kernel.cu,zhupengyang,2022-05-17

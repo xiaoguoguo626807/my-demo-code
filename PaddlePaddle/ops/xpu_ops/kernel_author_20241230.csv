@@ -1,0 +1,349 @@
+abs,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/abs_kernel.cc,ykkk2333,2022-09-01
+abs_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/abs_grad_kernel.cc,ykkk2333,2022-09-01
+accuracy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/accuracy_kernel.cc,haosicheng,2023-05-05
+acos,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,lijin23,2025-01-02
+adadelta,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/adadelta_kernel.cc,zhangyikun02,2022-11-08
+adagrad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/adagrad_kernel.cc,ykkk2333,2023-01-13
+adam,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/adam_kernel.cc,Aurelius84,2022-09-02
+adamw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/adamw_kernel.cc,Aurelius84,2022-09-01
+add,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_add_kernel.cc,zhangyuqin1998,2023-05-24
+add_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_add_grad_kernel.cc,YuanRisheng,2022-08-29
+add_n,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/add_n_kernel.cc,ykkk2333,2022-09-21
+add_n_array,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/add_n_kernel.cc,enzodechine,2024-09-23
+addmm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/addmm_kernel.cc,RuohengMa,2024-10-10
+addmm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/addmm_grad_kernel.cc,RuohengMa,2024-10-10
+affine_channel,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/affine_channel_kernel.cc,co63oc,2024-06-20
+affine_channel_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/affine_channel_grad_kernel.cc,co63oc,2024-06-20
+all_gather,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/all_gather_kernel.cc,XiaociZhang,2025-02-11
+all_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_all_kernel.cc,Jianbang Yang,2024-04-18
+all_reduce,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/all_reduce_kernel.cc,co63oc,2024-08-14
+all_to_all,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/all_to_all_kernel.cc,XiaociZhang,2025-02-11
+any_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_any_kernel.cc,RuohengMa,2023-05-12
+arange_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/arange_kernel.cc,zhangyikun02,2022-09-01
+argmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/arg_min_max_kernel.cc,skywalker2012,2024-09-24
+argmin,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/arg_min_max_kernel.cc,skywalker2012,2024-09-24
+argsort,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/argsort_kernel.cc,TTerror,2021-12-29
+argsort_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/argsort_grad_kernel.cc,zhangyikun02,2022-11-08
+atan,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/atan_kernel.cc,wangshengxiang,2023-02-10
+atan_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/atan_grad_kernel.cc,wangshengxiang,2023-02-10
+barrier,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/barrier_kernel.cc,Chang Lu,2025-02-13
+batch_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/batch_norm_kernel.cc,Chen Weihang,2022-09-01
+batch_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/batch_norm_grad_kernel.cc,Chen Weihang,2022-09-01
+bce_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/bce_loss_kernel.cc,Weilong Wu,2022-08-29
+bce_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/bce_loss_grad_kernel.cc,Weilong Wu,2022-08-29
+beam_search,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/beam_search_kernel.cc,co63oc,2024-06-20
+beam_search_decode,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/beam_search_decode_kernel.cc,co63oc,2024-07-02
+bilinear_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/interpolate_kernel.cc,taixiurong,2022-09-02
+bilinear_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/interpolate_grad_kernel.cc,taixiurong,2022-09-02
+bitwise_and,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/bitwise.cc,RuohengMa,2023-01-06
+bitwise_not,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/bitwise.cc,RuohengMa,2023-01-06
+bitwise_or,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/bitwise.cc,lijin23,2023-05-24
+bmm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/bmm_kernel.cc,Jiabin Yang,2022-09-14
+bmm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/bmm_grad_kernel.cc,Jiabin Yang,2022-09-14
+c_concat,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/c_concat_kernel.cc,ZhenxingLi,2024-10-24
+c_embedding,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/c_embedding_kernel.cc,Ruibin Cheung,2023-08-16
+c_embedding_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/c_embedding_kernel_grad.cc,Ruibin Cheung,2023-08-16
+c_identity,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/c_identity_kernel.cc,Wang Xin,2023-08-23
+c_softmax_with_cross_entropy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/c_softmax_with_cross_entropy_kernel.cc,Function-Samuel,2024-12-13
+c_softmax_with_cross_entropy_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/c_softmax_with_cross_entropy_grad_kernel.cc,Function-Samuel,2024-12-13
+c_split,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/c_split_kernel.cc,Ruibin Cheung,2023-08-22
+cast,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/cast_kernel.cc,chentianyu03,2022-01-26
+check_finite_and_unscale,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/amp_kernel.cc,HongyuJia,2022-08-31
+clip,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/clip_kernel.cc,risemeup1,2022-08-31
+clip_by_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/clip_by_norm_kernel.cc,zhangyikun02,2023-03-29
+clip_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/clip_grad_kernel.cc,RuohengMa,2023-01-18
+comm_init_all,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/comm_init_all_kernel.cc,co63oc,2024-08-21
+concat,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/concat_kernel.cc,xiongkun,2022-08-31
+concat_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/concat_grad_kernel.cc,xiongkun,2022-08-31
+contiguous,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/contiguous_kernel.cc,wanghuancoder,2023-07-31
+conv2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_kernel.cc,xiongkun,2022-09-01
+conv2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_grad_kernel.cc,xiongkun,2022-09-01
+conv2d_transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_transpose_kernel.cc,Ruibiao Chen,2022-08-26
+conv2d_transpose_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_transpose_grad_kernel.cc,Ruibiao Chen,2022-08-26
+conv3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_kernel.cc,wz1qqx,2023-06-08
+conv3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_grad_kernel.cc,lijin23,2025-01-15
+conv3d_transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_transpose_kernel.cc,Jianbang Yang,2025-03-07
+cos,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,zhangyikun02,2023-12-28
+cross_entropy_with_softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/cross_entropy_kernel.cc,ykkk2333,2022-09-02
+cross_entropy_with_softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/cross_entropy_grad_kernel.cc,ykkk2333,2022-09-02
+cumprod,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/cumprod_kernel.cc,ykkk2333,2023-03-30
+cumsum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/cum_kernel.cc,houj04,2022-11-04
+cumsum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/cum_grad_kernel.cc,wawltor,2023-01-18
+deformable_conv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/deformable_conv_kernel.cc,ykkk2333,2022-09-06
+deformable_conv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/deformable_conv_grad_kernel.cc,ykkk2333,2022-09-06
+depthwise_conv2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_kernel.cc,lijin23,2025-01-15
+depthwise_conv2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_grad_kernel.cc,xiongkun,2022-09-01
+depthwise_conv2d_transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_transpose_kernel.cc,Ruibiao Chen,2022-08-26
+depthwise_conv2d_transpose_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/conv_transpose_grad_kernel.cc,Ruibiao Chen,2022-08-26
+dequantize_linear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/quantize_linear_kernel.cc,houj04,2025-03-06
+dequantize_linear_deprecated,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/quantize_linear_kernel.cc,houj04,2025-03-06
+dequantize_xpu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/dequantization_kernel.cc,csy0225,2023-10-26
+diag,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/diag_kernel.cc,zhangyikun02,2022-12-19
+diagonal,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/diagonal_kernel.cc,ykkk2333,2023-01-09
+distribute_fpn_proposals,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/distribute_fpn_proposals_kernel.cc,duanyanhui,2023-03-01
+divide,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_divide_kernel.cc,YuanRisheng,2022-08-31
+divide_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_divide_grad_kernel.cc,YuanRisheng,2022-08-31
+dropout,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/dropout_kernel.cc,feifei-111,2022-08-31
+dropout_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/dropout_grad_kernel.cc,feifei-111,2022-08-31
+einsum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/einsum_kernel.cc,ykkk2333,2023-01-09
+einsum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/einsum_grad_kernel.cc,ykkk2333,2023-01-09
+einsum_infer,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/einsum_kernel.cc,ykkk2333,2023-01-09
+elementwise_pow,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_kernel.cc,Charles-hit,2022-08-31
+elu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,houj04,2023-12-01
+embedding,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/embedding_kernel.cc,feifei-111,2022-08-31
+embedding_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/embedding_grad_kernel.cc,feifei-111,2022-08-31
+embedding_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/embedding_grad_kernel.cc,Lucas,2023-11-29
+exp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,NeroLoh,2024-01-02
+exp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,Lucas,2025-01-04
+expand,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/expand_kernel.cc,zhangbo9674,2022-08-29
+expand_as,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/expand_as_kernel.cc,zhangbo9674,2022-08-29
+expand_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/expand_grad_kernel.cc,ronnywang,2023-02-24
+eye,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/eye.cc,RuohengMa,2024-09-03
+fill,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/fill_kernel.cc,QingshuChen,2023-01-09
+fill_diagonal_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/fill_diagonal_tensor_kernel.cc,ykkk2333,2023-01-09
+flash_attn,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/flash_attn_kernel.cc,ZhouMengLei1999,2024-03-04
+flash_attn_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/flash_attn_grad_kernel.cc,enzodechine,2024-12-17
+flash_attn_unpadded,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/flash_attn_kernel.cc,houj04,2023-12-18
+flash_attn_unpadded_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/flash_attn_grad_kernel.cc,houj04,2023-12-18
+flatten2,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/flatten2_kernel.cc,co63oc,2024-05-23
+flatten2_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/flatten2_grad_kernel.cc,co63oc,2024-05-23
+flip,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/flip_kernel.cc,wz1qqx,2023-08-10
+floor_divide,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_kernel.cc,Charles-hit,2022-08-31
+full,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/full_kernel.cc,chentianyu03,2022-01-27
+full_batch_size_like,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/full_kernel.cc,mayang002,2023-03-10
+full_like,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/full_kernel.cc,chentianyu03,2022-01-27
+full_with_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/full_kernel.cc,wanghuancoder,2023-08-23
+fused_attention,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/fused_attention_kernel.cc,Sonder,2023-04-19
+fused_attention_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/fused_attention_grad_kernel.cc,Sonder,2023-04-19
+gather,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/gather_kernel.cc,wanghuancoder,2022-08-29
+gather_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/gather_grad_kernel.cc,wanghuancoder,2022-08-29
+gather_nd,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/gather_nd_kernel.cc,wanghuancoder,2022-08-29
+gather_nd_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/gather_nd_grad_kernel.cc,zhangyikun02,2023-02-15
+gaussian,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/gaussian_kernel.cc,wanghuancoder,2022-08-29
+gelu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/gelu_kernel.cc,Leo Chen,2022-08-30
+gelu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/gelu_grad_kernel.cc,Leo Chen,2022-08-30
+generate_proposals,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/generate_proposals_kernel.cc,Leo Chen,2022-08-30
+grad_add,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_add_kernel.cc,QingshuChen,2022-07-13
+grid_sample,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/grid_sample_kernel.cc,Ruibiao Chen,2022-08-26
+grid_sample_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/grid_sample_grad_kernel.cc,zhangyikun02,2023-02-01
+group_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/group_norm_kernel.cc,ronnywang,2023-02-16
+group_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/group_norm_grad_kernel.cc,ykkk2333,2023-03-30
+hardsigmoid,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,ykkk2333,2023-11-02
+hardswish,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,wz1qqx,2023-05-08
+hardswish_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,ykkk2333,2023-11-02
+huber_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/huber_loss_kernel.cc,pangyoki,2022-08-30
+huber_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/huber_loss_grad_kernel.cc,pangyoki,2022-08-30
+increment,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/increment_kernel.cc,houj04,2023-03-13
+index_add,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_add_kernel.cc,zhouquan32,2024-09-04
+index_add_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_add_grad_kernel.cc,zhouquan32,2024-09-04
+index_put,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_put_kernel.cc,lijin23,2023-08-22
+index_put_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_put_grad_kernel.cc,lijin23,2024-08-13
+index_sample,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_sample_kernel.cc,houj04,2023-02-20
+index_sample_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_sample_grad_kernel.cc,RuohengMa,2023-05-15
+index_select,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_select_kernel.cc,Leo Guo,2022-09-29
+index_select_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/index_select_grad_kernel.cc,zhangyikun02,2023-03-10
+instance_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/instance_norm_kernel.cc,ykkk2333,2022-08-17
+instance_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/instance_norm_grad_kernel.cc,ykkk2333,2022-08-17
+inverse,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/inverse_kernel.cc,lijin23,2023-08-22
+isfinite,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/isfinite_kernel.cc,Jianbang Yang,2025-03-05
+isinf,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/isfinite_kernel.cc,Jianbang Yang,2025-03-05
+isnan,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/isfinite_kernel.cc,ronnywang,2023-02-24
+kldiv_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/kldiv_loss_kernel.cc,QingshuChen,2022-11-07
+kldiv_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/kldiv_loss_grad_kernel.cc,QingshuChen,2022-11-07
+label_smooth,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/label_smooth_kernel.cc,risemeup1,2022-08-31
+lamb,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/lamb_kernel.cc,taixiurong,2022-09-01
+lars_momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/lars_momentum_kernel.cc,gouzil,2023-09-05
+layer_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/layer_norm_kernel.cc,pangyoki,2022-08-30
+layer_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/layer_norm_grad_kernel.cc,pangyoki,2022-08-30
+leaky_relu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,Liuyinfeng,2024-01-31
+legacy_matmul,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/matmul_kernel.cc,co63oc,2024-09-06
+legacy_matmul_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/matmul_grad_kernel.cc,co63oc,2024-09-06
+less_than,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/compare_kernel.cc,kangguangli,2022-08-31
+linspace,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/linspace_kernel.cc,ronnywang,2023-02-16
+load,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/load_kernel.cc,co63oc,2024-10-15
+load_combine,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/load_combine_kernel.cc,co63oc,2024-10-23
+load_combine_extended,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/load_combine_kernel.cc,co63oc,2024-10-23
+load_combine_vocab,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/load_combine_kernel.cc,co63oc,2024-10-23
+log,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,haosicheng,2022-11-28
+log_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/log_loss_kernel.cc,co63oc,2024-06-20
+log_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/log_loss_grad_kernel.cc,co63oc,2024-06-20
+log_softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/log_softmax_kernel.cc,QingshuChen,2022-07-13
+log_softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/log_softmax_grad_kernel.cc,QingshuChen,2022-07-13
+logical_and,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/logical_kernel.cc,houj04,2023-01-18
+logical_not,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/logical_kernel.cc,houj04,2023-01-18
+logical_or,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/logical_kernel.cc,zhangyikun02,2023-02-09
+logical_xor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/logical_kernel.cc,zhangyikun02,2023-02-09
+logsumexp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/logsumexp_kernel.cc,co63oc,2024-06-13
+logsumexp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/logsumexp_grad_kernel.cc,enzodechine,2024-08-22
+masked_select,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/masked_select_kernel.cc,feifei-111,2022-08-31
+masked_select_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/masked_select_grad_kernel.cc,ykkk2333,2022-11-23
+matmul,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/matmul_kernel.cc,zyfncg,2022-08-29
+matmul_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/matmul_grad_kernel.cc,zyfncg,2022-08-29
+matmul_with_flatten,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/matmul_kernel.cc,Weilong Wu,2022-08-29
+matmul_with_flatten_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/matmul_grad_kernel.cc,Weilong Wu,2022-08-29
+max,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_max_kernel.cc,ykkk2333,2022-09-14
+max_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_max_grad_kernel.cc,ykkk2333,2022-09-14
+max_pool2d_with_index,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pool_kernel.cc,jameszhang,2023-01-19
+max_pool2d_with_index_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pool_grad_kernel.cc,ykkk2333,2023-02-13
+maximum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_kernel.cc,newway,2023-11-03
+maximum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_grad_kernel.cc,Charles-hit,2022-08-31
+mean_all,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/mean_all_kernel.cc,WangZhen,2022-08-31
+mean_all_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/mean_all_grad_kernel.cc,WangZhen,2022-08-31
+mean_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_mean_grad_kernel.cc,ykkk2333,2022-09-14
+mean_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_mean_kernel.cc,ykkk2333,2022-09-14
+merged_adam,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/adam_kernel.cc,HandSomeLEEw,2023-11-20
+merged_momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/merged_momentum_kernel.cc,ykkk2333,2022-09-06
+meshgrid,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/meshgrid_kernel.cc,ronnywang,2023-02-24
+min_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_min_grad_kernel.cc,RuohengMa,2023-03-13
+min_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_min_kernel.cc,Leo Guo,2022-09-29
+minimum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_kernel.cc,newway,2023-11-03
+minimum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_grad_kernel.cc,Charles-hit,2022-08-31
+momentum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/momentum_kernel.cc,WangZhen,2022-08-31
+mp_allreduce_sum,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/mp_allreduce_sum_kernel.cc,co63oc,2024-10-30
+multiclass_nms3,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/multiclass_nms3_kernel.cc,leolishaohao,2023-08-08
+multinomial,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/multinomial_kernel.cc,houj04,2024-06-25
+multiply,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_multiply_kernel.cc,YuanRisheng,2022-08-31
+multiply_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_multiply_grad_kernel.cc,YuanRisheng,2022-08-31
+name,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/compare_kernel.cc,houj04,2023-03-21
+nearest_interp,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/interpolate_kernel.cc,taixiurong,2022-09-02
+nearest_interp_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/interpolate_grad_kernel.cc,taixiurong,2022-09-02
+nll_loss,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/nll_loss_kernel.cc,RuohengMa,2023-05-23
+nll_loss_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/nll_loss_grad_kernel.cc,RuohengMa,2023-05-23
+nonzero,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/nonzero_kernel.cc,chenenquan,2022-03-10
+norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/norm_kernel.cc,leolishaohao,2023-08-08
+numel,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/numel_kernel.cc,houj04,2023-04-19
+one_hot,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/one_hot_kernel.cc,enzodechine,2022-09-05
+p_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/p_norm_kernel.cc,enzodechine,2022-09-05
+p_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/p_norm_grad_kernel.cc,enzodechine,2022-09-05
+p_recv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/p_recv_kernel.cc,Chang Lu,2025-02-17
+p_recv_array,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/p_recv_kernel.cc,Chang Lu,2025-02-17
+p_send,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/p_send_kernel.cc,Chang Lu,2025-02-17
+p_send_array,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/p_send_kernel.cc,Chang Lu,2025-02-17
+pad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pad_kernel.cc,lijin23,2023-05-11
+pad3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pad3d_kernel.cc,zhangyikun02,2022-11-24
+pad3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pad3d_grad_kernel.cc,zhangyikun02,2022-11-24
+pad_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pad_grad_kernel.cc,lijin23,2023-05-11
+pixel_shuffle,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pixel_shuffle_kernel.cc,wangshengxiang,2023-01-31
+pixel_shuffle_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pixel_shuffle_grad_kernel.cc,wangshengxiang,2023-01-31
+pool2d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pool_kernel.cc,james,2022-08-31
+pool2d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pool_grad_kernel.cc,james,2022-08-31
+pool3d,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pool_kernel.cc,james,2022-08-31
+pool3d_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pool_grad_kernel.cc,james,2022-08-31
+pow,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,lijin23,2023-12-19
+pow2_decay_with_linear_warmup,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/pow2_decay_with_linear_warmup_kernel.cc,huangjiyi,2023-05-12
+pow_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,RuohengMa,2023-12-28
+prelu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/prelu_kernel.cc,wangshengxiang,2023-01-13
+prelu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/prelu_grad_kernel.cc,wangshengxiang,2023-01-13
+prior_box,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/prior_box_kernel.cc,zhangyikun02,2022-08-30
+prod,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/prod_kernel.cc,ykkk2333,2022-09-14
+put_along_axis,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/put_along_axis_kernel.cc,enzodechine,2024-09-05
+quantize_linear,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/quantize_linear_kernel.cc,houj04,2025-03-06
+quantize_linear_deprecated_infer,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/quantize_linear_kernel.cc,houj04,2025-03-06
+quantize_xpu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/quantization_kernel.cc,csy0225,2023-10-26
+randint,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/randint_kernel.cc,ronnywang,2023-02-16
+randperm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/randperm_kernel.cc,duanyanhui,2023-03-01
+reduce,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_kernel.cc,co63oc,2024-08-21
+reduce_scatter,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_scatter_kernel.cc,XiaociZhang,2025-02-11
+relu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,ykkk2333,2022-09-01
+relu6,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,houj04,2023-02-17
+relu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,ykkk2333,2022-09-01
+remainder,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_kernel.cc,newway,2023-11-03
+repeat_interleave,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/repeat_interleave_kernel.cc,lijin23,2024-07-26
+repeat_interleave_with_tensor_index,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/repeat_interleave_kernel.cc,lijin23,2024-07-26
+rms_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/rms_norm_kernel.cc,NeroLoh,2024-05-23
+rms_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/rms_norm_grad_kernel.cc,Lucas,2024-08-29
+rmsprop,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/rmsprop_kernel.cc,houj04,2022-09-06
+rnn,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/rnn_kernel.cc,houj04,2022-09-07
+rnn_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/rnn_grad_kernel.cc,houj04,2022-09-07
+roi_align,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/roi_align_kernel.cc,Leo Guo,2022-09-08
+roi_align_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/roi_align_grad_kernel.cc,Leo Guo,2022-09-08
+roll,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/roll_kernel.cc,ykkk2333,2022-11-07
+roll_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/roll_grad_kernel.cc,ykkk2333,2022-11-07
+round,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,lijin23,2024-09-13
+rsqrt,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,Lucas,2024-08-28
+rsqrt_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,Lucas,2024-08-28
+save,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/save_kernel.cc,lujun,2019-03-20
+scale,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/scale_kernel.cc,chentianyu03,2022-01-24
+scatter,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/scatter_kernel.cc,Leo Guo,2022-09-14
+scatter_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/scatter_grad_kernel.cc,RuohengMa,2023-05-09
+scatter_nd_add,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/scatter_nd_add_kernel.cc,wangshengxiang,2023-02-27
+scatter_nd_add_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/scatter_nd_add_grad_kernel.cc,lijin23,2023-11-02
+sequence_conv,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sequence_conv_kernel.cc,co63oc,2024-05-24
+sequence_conv_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sequence_conv_grad_kernel.cc,co63oc,2024-05-24
+set_value,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/set_value_kernel.cc,Leo Guo,2023-01-12
+set_value_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/set_value_grad_kernel.cc,Leo Guo,2023-01-12
+set_value_with_scalar_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/set_value_grad_kernel.cc,JYChen,2023-12-25
+set_value_with_tensor,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/set_value_kernel.cc,Leo Guo,2023-01-12
+sgd,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sgd_kernel.cc,ykkk2333,2022-09-02
+sgd_dense_param_sparse_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sgd_kernel.cc,ykkk2333,2022-09-02
+share_data,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/share_data_kernel.cc,Chang Lu,2025-02-24
+sigmoid,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,wz1qqx,2023-08-02
+sigmoid_cross_entropy_with_logits,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sigmoid_cross_entropy_with_logits_kernel.cc,ykkk2333,2022-09-02
+sigmoid_cross_entropy_with_logits_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sigmoid_cross_entropy_with_logits_grad_kernel.cc,ykkk2333,2022-09-02
+sigmoid_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,Lucas,2024-08-28
+sign,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sign_kernel.cc,ykkk2333,2022-09-02
+silu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,enzodechine,2024-04-25
+silu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,enzodechine,2024-04-25
+sin,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,wz1qqx,2023-06-08
+slice,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/slice_kernel.cc,james,2022-09-01
+slice_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/slice_grad_kernel.cc,james,2022-09-01
+softmax,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/softmax_kernel.cc,zhangyikun02,2022-08-30
+softmax_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/softmax_grad_kernel.cc,zhangyikun02,2022-08-30
+split,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/split_kernel.cc,ykkk2333,2022-09-02
+split_with_num,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/split_kernel.cc,Lucas,2023-10-26
+sqrt,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,wz1qqx,2023-05-08
+square,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,ykkk2333,2022-09-01
+square_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,haosicheng,2022-12-23
+squared_l2_norm,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/squared_l2_norm_kernel.cc,houj04,2023-11-17
+squared_l2_norm_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/squared_l2_norm_grad_kernel.cc,houj04,2023-11-17
+stack,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/stack_kernel.cc,helen88,2022-09-02
+stack_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/stack_grad_kernel.cc,helen88,2022-09-02
+strided_copy,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/strided_copy_kernel.cc,wanghuancoder,2023-07-31
+strided_slice_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/stride_slice_kernel.cc,ykkk2333,2022-11-07
+strided_slice_raw_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/stride_slice_grad_kernel.cc,ykkk2333,2022-11-07
+subtract,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_subtract_kernel.cc,risemeup1,2022-09-05
+subtract_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/elementwise_subtract_grad_kernel.cc,risemeup1,2022-09-05
+sum_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_sum_grad_kernel.cc,dongfangshenzhu,2022-09-23
+sum_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/reduce_sum_kernel.cc,dongfangshenzhu,2022-09-23
+swiglu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/swiglu_kernel.cc,haosicheng,2024-05-08
+swiglu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/swiglu_kernel_grad.cc,haosicheng,2024-05-08
+swish,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,wz1qqx,2023-05-08
+swish_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,haosicheng,2022-12-23
+sync_calc_stream,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sync_calc_stream_kernel.cc,co63oc,2024-08-07
+sync_comm_stream,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/sync_comm_stream_kernel.cc,co63oc,2024-09-27
+take_along_axis,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/take_along_axis_kernel.cc,jiangfan06,2023-08-14
+tan,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,Jianbang Yang,2024-12-26
+tanh,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_kernel.cc,ykkk2333,2022-09-01
+tanh_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/activation_grad_kernel.cc,ykkk2333,2022-09-01
+temporal_shift,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/temporal_shift_kernel.cc,haosicheng,2022-08-25
+temporal_shift_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/temporal_shift_grad_kernel.cc,haosicheng,2022-08-25
+tile,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tile_kernel.cc,ykkk2333,2022-09-02
+tile_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tile_grad_kernel.cc,houj04,2022-12-06
+top_p_sampling,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/top_p_sampling_kernel.cc,cmcamdy,2024-09-23
+topk,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/top_k_kernel.cc,ykkk2333,2022-09-02
+topk_v1,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/top_k_kernel.cc,co63oc,2024-06-11
+transpose,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/transpose_kernel.cc,ykkk2333,2022-09-01
+transpose_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/transpose_grad_kernel.cc,ykkk2333,2022-09-01
+tril,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tril_triu_kernel.cc,houj04,2023-12-01
+tril_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tril_triu_grad_kernel.cc,ykkk2333,2022-09-01
+tril_triu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tril_triu_kernel.cc,ykkk2333,2022-09-01
+tril_triu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tril_triu_grad_kernel.cc,enzodechine,2024-09-30
+triu,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tril_triu_kernel.cc,houj04,2023-12-01
+triu_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/tril_triu_grad_kernel.cc,enzodechine,2024-09-30
+truncated_gaussian_random,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/truncated_gaussian_random_kernel.cc,HongyuJia,2022-08-31
+unbind,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/unbind_kernel.cc,zhangyikun02,2022-12-27
+unfold,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/unfold_kernel.cc,ykkk2333,2022-12-02
+unfold_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/unfold_grad_kernel.cc,ykkk2333,2022-12-02
+uniform,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/uniform_kernel.cc,HongyuJia,2022-09-01
+uniform_inplace,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/uniform_inplace_kernel.cc,co63oc,2024-06-13
+uniform_inplace_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/uniform_inplace_grad_kernel.cc,co63oc,2024-06-13
+unique,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/unique_kernel.cc,lijin23,2023-06-20
+unique_raw,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/unique_kernel.cc,lijin23,2023-06-20
+unstack,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/unstack_kernel.cc,QingshuChen,2023-02-21
+unstack_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/unstack_grad_kernel.cc,QingshuChen,2023-02-21
+update_loss_scaling,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/amp_kernel.cc,HongyuJia,2022-08-31
+warpctc,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/warpctc_kernel.cc,zhangyikun02,2022-11-23
+warpctc_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/warpctc_grad_kernel.cc,zhangyikun02,2022-11-23
+where,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/where_kernel.cc,ykkk2333,2022-09-06
+where_grad,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/where_grad_kernel.cc,ykkk2333,2023-01-13
+yolo_box,https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/phi/kernels/xpu/yolo_box_kernel.cc,Jimmy,2024-10-24

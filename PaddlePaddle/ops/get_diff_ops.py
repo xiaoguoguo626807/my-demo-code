@@ -7,7 +7,7 @@ op_file_1 = sys.argv[1]
 op_file_2 = sys.argv[2]
 prefix =  sys.argv[3]
 # 输出文件
-ouptut_comm = prefix + "ouptut_comm.csv"
+output_comm = prefix + "output_comm.csv"
 output_diff1 = prefix + "output_diff1.csv"
 output_diff2 = prefix + "output_diff2.csv"
 
@@ -53,7 +53,7 @@ op_diff_list_1.sort()
 op_diff_list_2.sort()
 
 # 写入CSV文件
-with open(ouptut_comm, 'w') as f:
+with open(output_comm, 'w') as f:
     for item in op_comm_list:
         f.write("%s\n" % item)
 with open(output_diff1, 'w') as f:

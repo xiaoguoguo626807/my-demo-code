@@ -1,0 +1,257 @@
+abs,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/abs_kernel.cc,fwenguang,2022-09-13
+abs_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/abs_kernel.cc,fwenguang,2022-09-13
+accuracy,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/accuracy_kernel.cc,fwenguang,2022-09-02
+adam,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/adam_kernel.cc,Chenxiao Niu,2022-09-16
+adamw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/adam_kernel.cc,Chenxiao Niu,2022-09-16
+add,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_add_kernel.cc,fwenguang,2022-09-07
+add_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_add_kernel.cc,fwenguang,2022-09-07
+add_n,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/add_n_kernel.cc,Chenxiao Niu,2022-09-14
+add_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_add_kernel.cc,fwenguang,2022-09-07
+all,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_all_kernel.cc,Chenxiao Niu,2024-06-28
+any,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_any_kernel.cc,PeiyuLau,2023-06-16
+arange,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/range_kernel.cc,Kai Song,2023-11-01
+arange_tensor,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/range_kernel.cc,Chenxiao Niu,2022-09-21
+argmax,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/arg_max_kernel.cc,fwenguang,2022-09-13
+argsort,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/argsort_kernel.cc,fwenguang,2022-09-13
+argsort_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/argsort_kernel.cc,fwenguang,2022-09-13
+assign,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/assign_kernel.cc,fwenguang,2022-09-13
+assign_array,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/assign_kernel.cc,fwenguang,2022-09-13
+assign_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/assign_kernel.cc,fwenguang,2022-09-13
+assign_value,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/assign_kernel.cc,fwenguang,2022-09-13
+atan,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+atan_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+batch_norm,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/batch_norm_kernel.cc,fwenguang,2022-09-13
+batch_norm_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/batch_norm_kernel.cc,fwenguang,2022-09-13
+batch_norm_infer,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/batch_norm_kernel.cc,fwenguang,2022-09-13
+bce_loss,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/bce_loss_kernel.cc,fwenguang,2022-09-13
+bce_loss_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/bce_loss_kernel.cc,fwenguang,2022-09-13
+bilinear_interp,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/interpolate_kernel.cc,fwenguang,2022-09-19
+bilinear_interp_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/interpolate_kernel.cc,fwenguang,2022-09-19
+bitwise_and,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/bitwise_kernel.cc,Yingli Liu,2023-03-31
+bitwise_not,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/bitwise_kernel.cc,Yingli Liu,2023-03-31
+bitwise_or,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/bitwise_kernel.cc,Yingli Liu,2023-03-31
+bitwise_xor,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/bitwise_kernel.cc,Yingli Liu,2023-03-31
+bmm,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/matmul_kernel.cc,Lux et Veritas,2022-09-26
+bmm_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/matmul_kernel.cc,claire199705,2023-08-15
+cast,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/cast_kernel.cc,fwenguang,2022-09-13
+check_finite_and_unscale,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/check_finite_and_unscale_kernel.cc,cifar10,2022-09-26
+clip,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/clip_kernel.cc,fwenguang,2022-09-16
+clip_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/clip_kernel.cc,fwenguang,2022-09-16
+coalesce_tensor,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/coalesce_tensor_kernel.cc,Lux et Veritas,2023-04-17
+concat,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/concat_kernel.cc,fwenguang,2022-09-16
+concat_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/concat_kernel.cc,fwenguang,2022-09-16
+contiguous,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/contiguous_kernel.cc,Tongkai,2024-03-15
+conv2d,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_kernel.cc,fwenguang,2022-09-16
+conv2d_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_kernel.cc,fwenguang,2022-09-16
+conv2d_transpose,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_transpose_kernel.cc,fwenguang,2022-09-16
+conv2d_transpose_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_transpose_kernel.cc,fwenguang,2022-09-16
+conv3d,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_kernel.cc,fwenguang,2022-09-16
+conv3d_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_kernel.cc,fwenguang,2022-09-16
+cos,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,cifar10,2023-06-16
+cos_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,cifar10,2023-06-16
+cross_entropy_with_softmax,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/cross_entropy_kernel.cc,Lux et Veritas,2022-09-29
+cross_entropy_with_softmax_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/cross_entropy_kernel.cc,Lux et Veritas,2022-09-29
+cumsum,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/cumsum_kernel.cc,fwenguang,2022-09-16
+deformable_conv,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/deformable_conv_kernel.cc,fwenguang,2022-09-16
+deformable_conv_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/deformable_conv_kernel.cc,fwenguang,2022-09-16
+depthwise_conv2d,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_kernel.cc,fwenguang,2022-09-16
+depthwise_conv2d_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/conv_kernel.cc,fwenguang,2022-09-16
+divide,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_div_kernel.cc,fwenguang,2022-09-07
+divide_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_div_kernel.cc,fwenguang,2022-09-07
+divide_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_div_kernel.cc,fwenguang,2022-09-07
+dropout,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/dropout_kernel.cc,fwenguang,2022-09-16
+dropout_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/dropout_kernel.cc,fwenguang,2022-09-16
+elementwise_pow,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_pow_kernel.cc,fwenguang,2022-09-07
+elementwise_pow_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_pow_kernel.cc,fwenguang,2022-09-07
+elementwise_pow_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_pow_kernel.cc,fwenguang,2022-09-07
+embedding,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/lookup_table_v2_op_kernel.cc,cifar10,2022-09-26
+embedding_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/lookup_table_v2_op_kernel.cc,cifar10,2022-09-26
+exp,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2022-11-01
+exp_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+expand,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/expand_kernel.cc,fwenguang,2022-09-19
+expand_as,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/expand_as_kernel.cc,fwenguang,2022-09-19
+expand_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/expand_kernel.cc,fwenguang,2022-09-19
+fill,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/fill_kernel.cc,Tongkai,2024-03-15
+flash_attn,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/flash_attn_kernel.cc,cifar10,2023-10-18
+flash_attn_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/flash_attn_kernel.cc,cifar10,2023-10-18
+flash_attn_unpadded,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/flash_attn_kernel.cc,cifar10,2023-10-18
+flash_attn_unpadded_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/flash_attn_kernel.cc,cifar10,2023-10-18
+flip,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/flip_kernel.cc,Ivorfeng,2023-10-11
+floor,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+full,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/full_kernel.cc,fwenguang,2022-09-19
+full_batch_size_like,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/full_kernel.cc,fwenguang,2022-09-19
+full_like,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/full_kernel.cc,fwenguang,2022-09-19
+gather,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/gather_kernel.cc,cifar10,2022-09-20
+gather_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/gather_kernel.cc,cifar10,2022-09-20
+gather_nd,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/gather_nd_kernel.cc,cifar10,2022-09-20
+gather_nd_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/gather_nd_kernel.cc,cifar10,2022-09-20
+gaussian,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/gaussian_kernel.cc,fwenguang,2022-09-19
+gelu,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+gelu_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2022-11-01
+generate_proposals,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/generate_proposals_kernel.cc,fwenguang,2022-11-04
+grid_sample,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/grid_sample_kernel.cc,fwenguang,2022-09-19
+grid_sample_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/grid_sample_kernel.cc,PeiyuLau,2024-09-05
+hardsigmoid,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+hardsigmoid_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+hardswish,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,PeiyuLau,2023-06-16
+hardswish_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+huber_loss,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/huber_loss_kernel.cc,Chenxiao Niu,2022-09-28
+huber_loss_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/huber_loss_kernel.cc,Chenxiao Niu,2022-09-28
+index_sample,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/index_sample_kernel.cc,Ivorfeng,2023-08-24
+index_sample_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/index_sample_kernel.cc,Ivorfeng,2023-08-24
+index_select,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/index_select_kernel.cc,PeiyuLau,2024-02-02
+index_select_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/index_select_kernel.cc,PeiyuLau,2024-02-02
+kldiv_loss,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/kldiv_loss_kernel.cc,Ivorfeng,2023-10-11
+kldiv_loss_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/kldiv_loss_kernel.cc,Ivorfeng,2023-10-11
+label_smooth,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/label_smooth_kernel.cc,cifar10,2022-09-20
+layer_norm,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/layer_norm_kernel.cc,fwenguang,2022-09-20
+layer_norm_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/layer_norm_kernel.cc,fwenguang,2022-09-20
+leaky_relu,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+leaky_relu_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+log,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,cifar10,2023-06-16
+log10,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+log2,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+log_softmax,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/log_softmax_kernel.cc,Lux et Veritas,2023-04-14
+log_softmax_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/log_softmax_kernel.cc,Lux et Veritas,2023-04-14
+logical_and,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/logical_kernel.cc,Chenxiao Niu,2022-09-16
+logical_not,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/logical_kernel.cc,Chenxiao Niu,2022-09-16
+logical_or,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/logical_kernel.cc,Chenxiao Niu,2022-09-16
+logical_xor,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/logical_kernel.cc,Chenxiao Niu,2022-09-16
+masked_select,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/masked_select_kernel.cc,Lux et Veritas,2022-09-26
+masked_select_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/masked_select_kernel.cc,Lux et Veritas,2022-09-26
+matmul,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/matmul_kernel.cc,Lux et Veritas,2022-09-26
+matmul_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/matmul_kernel.cc,Chenxiao Niu,2022-11-02
+matmul_with_flatten,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/matmul_kernel.cc,Lux et Veritas,2022-09-26
+matmul_with_flatten_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/matmul_kernel.cc,Chenxiao Niu,2022-11-02
+max,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_max_kernel.cc,fwenguang,2022-09-07
+max_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_max_kernel.cc,fwenguang,2022-09-07
+max_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_max_kernel.cc,fwenguang,2022-09-07
+maximum,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_max_kernel.cc,fwenguang,2022-09-07
+maximum_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_max_kernel.cc,fwenguang,2022-09-07
+maximum_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_max_kernel.cc,fwenguang,2022-09-07
+mean,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_mean_kernel.cc,fwenguang,2022-09-02
+mean_all,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/mean_all_kernel.cc,fwenguang,2022-09-02
+mean_all_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/mean_all_kernel.cc,fwenguang,2022-09-02
+mean_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_mean_kernel.cc,fwenguang,2022-09-02
+mean_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_mean_kernel.cc,fwenguang,2022-09-02
+memcpy,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/memcpy_kernel.cc,Chenxiao Niu,2022-09-29
+memcpy_d2h,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/memcpy_kernel.cc,Chenxiao Niu,2022-09-29
+memcpy_d2h_multi_io,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/memcpy_kernel.cc,Chenxiao Niu,2022-09-29
+memcpy_h2d,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/memcpy_kernel.cc,Chenxiao Niu,2022-09-29
+merged_adam,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/adam_kernel.cc,Chenxiao Niu,2022-09-16
+merged_momentum,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/momentum_kernel.cc,Chenxiao Niu,2022-09-22
+meshgrid,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/meshgrid_kernel.cc,Chenxiao Niu,2022-09-21
+min,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_min_kernel.cc,fwenguang,2022-09-07
+min_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_min_kernel.cc,fwenguang,2022-09-07
+minimum,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_min_kernel.cc,fwenguang,2022-09-07
+minimum_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_min_kernel.cc,fwenguang,2022-09-07
+minimum_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_min_kernel.cc,fwenguang,2022-09-07
+momentum,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/momentum_kernel.cc,Chenxiao Niu,2022-09-22
+multinomial,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/multinomial_kernel.cc,Ivorfeng,2023-08-24
+multiply,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_mul_kernel.cc,fwenguang,2022-09-07
+multiply_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_mul_kernel.cc,fwenguang,2022-09-07
+multiply_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_mul_kernel.cc,fwenguang,2022-09-07
+name,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/compare_kernel.cc,YuhangLi,2023-04-25
+name##_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/compare_kernel.cc,YuhangLi,2023-04-25
+nearest_interp,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/interpolate_kernel.cc,fwenguang,2022-09-19
+nearest_interp_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/interpolate_kernel.cc,fwenguang,2022-09-19
+nonzero,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/nonzero_kernel.cc,cifar10,2022-09-26
+numel,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/numel_kernel.cc,Lux et Veritas,2022-09-16
+one_hot,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/one_hot_kernel.cc,Chenxiao Niu,2022-09-21
+one_hot_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/one_hot_kernel.cc,Chenxiao Niu,2022-09-21
+p_norm,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/p_norm_kernel.cc,Chenxiao Niu,2023-10-09
+p_norm_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/p_norm_kernel.cc,Chenxiao Niu,2023-10-09
+pool2d,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/pool2d_kernel.cc,Chenxiao Niu,2022-09-21
+pool2d_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/pool2d_kernel.cc,Chenxiao Niu,2022-09-21
+pow,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+pow_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+print_kernel,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/data_kernel.cc,Chenxiao Niu,2023-09-07
+prior_box,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/prior_box_kernel.cc,cifar10,2022-09-30
+prod,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/prod_kernel.cc,fwenguang,2022-09-07
+prod_infer,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/prod_kernel.cc,fwenguang,2022-09-07
+randperm,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/randperm_kernel.cc,Chenxiao Niu,2022-09-21
+reciprocal,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+reciprocal_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+relu,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+relu6,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+relu6_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+relu_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+rnn,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/rnn_kernel.cc,Lux et Veritas,2022-09-19
+rnn_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/rnn_kernel.cc,Chenxiao Niu,2022-11-02
+roi_align,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/roi_align_kernel.cc,Lux et Veritas,2022-09-16
+roi_align_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/roi_align_kernel.cc,Lux et Veritas,2022-09-16
+roll,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/roll_kernel.cc,PeiyuLau,2024-02-22
+roll_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/roll_kernel.cc,PeiyuLau,2024-02-22
+round,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2024-03-21
+round_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2024-03-21
+rsqrt,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+rsqrt_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,cifar10,2023-06-16
+scale,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/scale_kernel.cc,Lux et Veritas,2022-09-16
+scatter,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/scatter_kernel.cc,Lux et Veritas,2022-09-19
+scatter_nd_add,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/scatter_kernel.cc,Yingli Liu,2023-03-31
+set_value,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/set_value_kernel.cc,Lux et Veritas,2022-09-19
+set_value_with_tensor,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/set_value_kernel.cc,cifar10,2023-04-06
+sgd,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/sgd_kernel.cc,Chenxiao Niu,2022-11-02
+sigmoid,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+sigmoid_cross_entropy_with_logits,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/sigmoid_cross_with_logits_kernel.cc,Lux et Veritas,2022-09-16
+sigmoid_cross_entropy_with_logits_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/sigmoid_cross_with_logits_kernel.cc,Lux et Veritas,2022-09-16
+sigmoid_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+silu,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+silu_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Yingli Liu,2023-03-31
+sin,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+sin_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,PeiyuLau,2023-06-16
+slice,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/slice_kernel.cc,Lux et Veritas,2022-09-16
+slice_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/slice_kernel.cc,Lux et Veritas,2022-09-16
+softmax,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/softmax_kernel.cc,fwenguang,2022-08-31
+softmax_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/softmax_kernel.cc,fwenguang,2022-08-31
+split,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/split_kernel.cc,Chenxiao Niu,2022-09-14
+split_with_num,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/split_kernel.cc,Chenxiao Niu,2022-09-14
+sqrt,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+sqrt_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,fwenguang,2022-09-02
+square,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2023-06-15
+square_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2023-06-15
+squared_l2_norm,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/squared_l2_norm_kernel.cc,Lux et Veritas,2022-09-19
+squared_l2_norm_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/squared_l2_norm_kernel.cc,Lux et Veritas,2022-09-19
+squeeze,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/squeeze_kernel.cc,Lux et Veritas,2022-09-19
+squeeze_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/squeeze_kernel.cc,Lux et Veritas,2022-09-19
+squeeze_with_xshape,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/squeeze_kernel.cc,Lux et Veritas,2022-09-19
+stack,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/stack_kernel.cc,Lux et Veritas,2022-09-16
+strided_copy,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/strided_copy_kernel.cc,Tongkai,2024-03-15
+strided_slice,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/strided_slice_kernel.cc,Chenxiao Niu,2023-10-09
+strided_slice_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/strided_slice_kernel.cc,Chenxiao Niu,2023-10-09
+strided_slice_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/strided_slice_kernel.cc,Lux et Veritas,2022-09-19
+strided_slice_raw_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/strided_slice_kernel.cc,Lux et Veritas,2022-09-19
+subtract,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_sub_kernel.cc,fwenguang,2022-09-07
+subtract_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_sub_kernel.cc,fwenguang,2022-09-07
+subtract_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/elementwise_sub_kernel.cc,fwenguang,2022-09-07
+sum,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_sum_kernel.cc,fwenguang,2022-09-07
+sum_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_sum_kernel.cc,fwenguang,2022-09-07
+sum_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/reduce_sum_kernel.cc,fwenguang,2022-09-07
+swish,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,PeiyuLau,2023-06-16
+swish_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,PeiyuLau,2023-10-10
+sync_batch_norm,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/sync_batch_norm_kernel.cc,Chenxiao Niu,2023-05-06
+sync_batch_norm_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/sync_batch_norm_kernel.cc,Chenxiao Niu,2023-05-06
+tanh,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2022-11-01
+tanh_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/activation_kernel.cc,Chenxiao Niu,2022-11-01
+tile,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tile_kernel.cc,Lux et Veritas,2022-09-16
+tile_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tile_kernel.cc,Chenxiao Niu,2023-08-21
+topk,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/top_k_kernel.cc,Lux et Veritas,2022-09-19
+transpose,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/transpose_kernel.cc,Chenxiao Niu,2022-09-20
+transpose_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/transpose_kernel.cc,Chenxiao Niu,2022-09-20
+tril,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tril_triu_op_mlu.cc,claire199705,2023-02-14
+tril_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tril_triu_op_mlu.cc,claire199705,2023-02-14
+tril_triu,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tril_triu_op_mlu.cc,Chenxiao Niu,2022-09-20
+tril_triu_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tril_triu_op_mlu.cc,claire199705,2023-02-14
+triu,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tril_triu_op_mlu.cc,claire199705,2023-02-14
+triu_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/tril_triu_op_mlu.cc,claire199705,2023-02-14
+truncated_gaussian_random,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/truncated_gaussian_random_kernel.cc,Chenxiao Niu,2022-09-20
+uniform,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/uniform_kernel.cc,Chenxiao Niu,2022-09-20
+uniform_raw,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/uniform_kernel.cc,Chenxiao Niu,2022-09-20
+unsqueeze,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/unsqueeze_kernel.cc,cifar10,2022-09-26
+unsqueeze_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/unsqueeze_kernel.cc,cifar10,2022-09-26
+unsqueeze_with_xshape,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/unsqueeze_kernel.cc,cifar10,2022-09-26
+unstack,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/unstack_kernel.cc,cifar10,2022-09-26
+unstack_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/unstack_kernel.cc,cifar10,2022-09-26
+where,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/where_kernel.cc,claire199705,2023-07-11
+where_grad,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/where_kernel.cc,Chenxiao Niu,2022-09-16
+yolo_box,https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/yolo_box_kernel.cc,Lux et Veritas,2022-09-29

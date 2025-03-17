@@ -9,7 +9,7 @@ import paddle_custom_device
 # from IPython import get_ipython
 
 kernel_path = "/home/wangruting/PaddleCustomDevice/backends/mlu/kernels"
-online_kernel_path = "https://github.com/PaddlePaddle/PaddleCustomDevice/backends/mlu/kernels/"
+online_kernel_path = "https://github.com/PaddlePaddle/PaddleCustomDevice/tree/develop/backends/mlu/kernels/"
 # get latest commit and date
 repo = git.Repo("/home/wangruting/PaddleCustomDevice")
 paddle_commit = paddle_custom_device.mlu.version()
